@@ -1,0 +1,232 @@
+body,html {
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #42A5F5;
+  letter-spacing: .5px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 0;
+  color: #494E52;
+  letter-spacing: .25px;
+  line-height: 30px;
+}
+
+/* BODY */
+
+.hero {
+	width: 100%;
+	height: auto;
+	background: #42A5F5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#42A5F5, #93CBF8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#42A5F5, #93CBF8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#42A5F5, #93CBF8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#42A5F5, #93CBF8); /* Standard syntax */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+    width: 90%;
+    display: block;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+
+.myButton {
+    border: 0px solid;
+    -moz-box-shadow: 0px 0px 0px -3px #2C598B;
+    -webkit-box-shadow: 0px 0px 0px -3px #2C598B;
+    box-shadow: 0px -5px 0px -5px #2C598B;
+    background-color:#7FC881;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    padding:15px 0px;
+    text-decoration:none;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+ }
+
+ .myButton:hover {
+  background-color:#72B473;
+}
+
+.mockup {
+  content:url("assets/mockup.png");
+  width:60%; 
+  display: block; 
+  margin: 0 auto; 
+  margin-bottom: 0px; 
+  margin-top: 40px;
+}
+
+.features {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.laptop {
+  content:url("assets/laptop.png");
+  width:70%; 
+  display: block; 
+  margin: 0 auto; 
+  max-width: 300px;
+}
+
+.earth {
+  content:url("assets/earth.png");
+  width:70%; 
+  display: block; 
+  margin: 0 auto;
+  max-width: 300px; 
+}
+
+.router {
+  content:url("assets/router.png");
+  width:70%; 
+  display: block; 
+  margin: 0 auto; 
+  max-width: 300px;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.footer {
+  width: 100%;
+  background: #42A5F5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#42A5F5, #93CBF8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#42A5F5, #93CBF8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#42A5F5, #93CBF8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#42A5F5, #93CBF8); /* Standard syntax */
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+
+/* Small screens */
+@media screen and (max-width: 768px)	{
+
+	h1 {
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 30px;
+	  font-weight: 600;
+	  margin-bottom: 0;
+	  color: white;
+	  text-align: center;
+	}	
+
+	h2 {
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 22px;
+	  font-weight: 300;
+	  margin-bottom: 0;
+	  color: white;
+	  text-align: center;
+	}
+
+	h3 {
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 20px;
+	  font-weight: 600;
+	  margin-bottom: 0;
+	  color: #42A5F5;
+    line-height: 30px;
+	}
+
+  .features {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* ADD MOBILE SCREEN */ 
+  .mockup {
+    content:url("assets/mockup.png");
+    width:60%; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 0px; 
+    margin-top: 40px;
+  }
+
+	.mobileWidth {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+/* Stack Order */
+@media only screen and (min-width: 768px) {
+  #filler1{
+    order:1;
+  }
+
+  #blue {
+    order: 2;
+  }
+
+  #red {
+    order: 3;
+  }
+
+  #filler2{
+    order:4;
+  }
+
+}
