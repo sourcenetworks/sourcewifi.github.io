@@ -154,7 +154,7 @@ input[type=text] {
   background: -moz-linear-gradient(#42A5F5, #93CBF8); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#42A5F5, #93CBF8); /* Standard syntax */
   padding-top: 135px;
-  padding-bottom: 135px;
+  padding-bottom: 25px;
 }
 
 /* Small screens */
