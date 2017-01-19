@@ -19,6 +19,11 @@ Finally, to start developing, do:
 gulp
 ```
 
+To push changes to github pages use
+```
+gulp deploy
+```
+
 You'll probably want to install the Livereload extension on the Chrome app store too. If you just
 activate that extension, then it will talk to the Gulp Livereload server and auto-reload the page
 on SCSS/HTML changes. Super convenient for iterating!
