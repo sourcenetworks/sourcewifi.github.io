@@ -19,7 +19,7 @@ gulp.task('sass', function(){
       browsers: ['last 2 versions', 'Explorer >= 9', 'Android >= 4.1', 'Safari >= 7', 'iOS >= 7']
     }))
     .pipe(minify())
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('css/build/'))
     .pipe(plumber({
         errorHandler: onError
     }))
@@ -51,4 +51,9 @@ gulp.task('open', function(){
   opener('http://localhost:8080');
 });
 
-gulp.task('default', ['sass', 'watch', 'connect', 'open', 'deploy']);
+gulp.task('default', ['sass', 'watch', 'connect', 'open']);
+
+gulp.task('deploy', ['sass'], function () {
+  return gulp.src(['./**/*', '!node_modules/**/*'])
+    .pipe(deploy());
+});
