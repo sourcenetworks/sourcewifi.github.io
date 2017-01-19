@@ -29,7 +29,7 @@ gulp.task('sass', function(){
 gulp.task('html')
 
 gulp.task('deploy', function () {
-  return gulp.src(".dist/**/*.*")
+  return gulp.src("./**/*.*")
     .pipe(deploy());
 });
 
