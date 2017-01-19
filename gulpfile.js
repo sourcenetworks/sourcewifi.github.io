@@ -6,6 +6,7 @@ var plumber = require('gulp-plumber');
 var livereload = require('gulp-livereload');
 var connect = require('gulp-connect');
 var opener = require('opener');
+var deploy = require('gulp-gh-pages');
 
 function onError(err) {
   console.error(err);
@@ -27,6 +28,11 @@ gulp.task('sass', function(){
 
 gulp.task('html')
 
+gulp.task('deploy', function () {
+  return gulp.src(".dist/**/*.*")
+    .pipe(deploy());
+});
+
 gulp.task('connect', function() {
   connect.server({
     livereload: true
@@ -45,4 +51,4 @@ gulp.task('open', function(){
   opener('http://localhost:8080');
 });
 
-gulp.task('default', ['sass', 'watch', 'connect', 'open']);
+gulp.task('default', ['sass', 'watch', 'connect', 'open', 'deploy']);

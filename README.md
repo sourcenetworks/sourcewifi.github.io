@@ -12,7 +12,6 @@ Then to install Gulp and all the plugins:
 ```sh
 npm install
 npm install -g gulp
-npm install gulp-connect
 ```
 
 Finally, to start developing, do:
