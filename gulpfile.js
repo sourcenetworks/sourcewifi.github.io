@@ -35,7 +35,7 @@ gulp.task('connect', function() {
 
 gulp.task('watch', function() {
   livereload.listen();
-  gulp.watch('**/*.scss', ['sass']);   
+  gulp.watch('**/*.scss', ['sass']);
   gulp.watch('index.html', function (changeEvent) {
     livereload.changed(changeEvent.path);
   });
