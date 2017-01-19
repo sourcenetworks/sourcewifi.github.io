@@ -96,7 +96,7 @@ input[type=text] {
 }
 
 .mockup {
-  content: url("../assets/mockup.png");
+  content: url("/assets/mockup.png");
   width: 60%; 
   display: block; 
   margin: 0 auto; 
@@ -111,7 +111,7 @@ input[type=text] {
 }
 
 .laptop {
-  content: url("../assets/laptop.png");
+  content: url("/assets/laptop.png");
   width: 70%; 
   display: block; 
   margin: 0 auto; 
@@ -119,7 +119,7 @@ input[type=text] {
 }
 
 .earth {
-  content: url("../assets/earth.png");
+  content: url("/assets/earth.png");
   width: 70%; 
   display: block; 
   margin: 0 auto;
@@ -127,7 +127,7 @@ input[type=text] {
 }
 
 .router {
-  content: url("../assets/router.png");
+  content: url("/assets/router.png");
   width: 70%; 
   display: block; 
   margin: 0 auto; 
@@ -184,7 +184,7 @@ input[type=text] {
 
   /* ADD MOBILE SCREEN */ 
   .mockup {
-    content: url("../assets/mockup.png");
+    content: url("/assets/mockup.png");
     width: 60%; 
     display: block; 
     margin: 0 auto; 

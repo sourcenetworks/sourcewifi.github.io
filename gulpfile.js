@@ -19,7 +19,7 @@ gulp.task('sass', function(){
       browsers: ['last 2 versions', 'Explorer >= 9', 'Android >= 4.1', 'Safari >= 7', 'iOS >= 7']
     }))
     .pipe(minify())
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('css/build/'))
     .pipe(plumber({
         errorHandler: onError
     }))
