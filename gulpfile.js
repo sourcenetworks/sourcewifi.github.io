@@ -26,7 +26,6 @@ gulp.task('sass', function(){
     .pipe(livereload());
 });
 
-<<<<<<< HEAD
 gulp.task('html')
 
 gulp.task('deploy', function () {
@@ -34,8 +33,6 @@ gulp.task('deploy', function () {
     .pipe(deploy());
 });
 
-=======
->>>>>>> 2ddedbc81e19cbf88a329a14490ef06f4a1001ca
 gulp.task('connect', function() {
   connect.server({
     livereload: true
