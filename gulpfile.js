@@ -26,13 +26,6 @@ gulp.task('sass', function(){
     .pipe(livereload());
 });
 
-gulp.task('html')
-
-gulp.task('deploy', function () {
-  return gulp.src("./**/*.*")
-    .pipe(deploy());
-});
-
 gulp.task('connect', function() {
   connect.server({
     livereload: true
