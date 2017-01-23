@@ -28,6 +28,13 @@
 
 			  ga('create', 'UA-90590622-1', 'auto');
 			  ga('send', 'pageview');
+
+			  function handleSignUpButtonClick(event) {
+				  ga('send', 'event', {
+				    eventCategory: 'signUp',
+				    eventAction: 'click',
+				  });
+			   }
 		</script>
 
 		<title>Source - Redefining WiFi</title>
@@ -47,7 +54,7 @@
 							<input type="text" name="reservation[email]" class="email-input" placeholder="name@email.com"><br>
 					</div>
 					<div class="pure-u-1 pure-u-md-5-24">
-							<input type="submit" class="signUpButton" value="Sign up for beta" onClick=”_gaq.push([‘_trackEvent’, signUp, ‘click’]);”>
+							<input type="submit" class="signUpButton" value="Sign up for beta" onClick="handleSignUpButtonClick()";”>
 					</div>
 					<div class="pure-u-1 pure-u-md-6-24"></div>
 			</div>
