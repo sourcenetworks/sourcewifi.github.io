@@ -13,14 +13,17 @@ $('form.sign-up-form').on('submit', function (e) {
   }
   $this.find('h2').addClass('hidden');
   $this.find('.msg-container').removeClass('hidden');
+  ga('send', 'event', 'form', 'signup attempt start');
   if (email && email.match(emailRegex)) {
     api.reserve({ email: email })
       .then(function (response) {
         var position = response.reservation.position;
         $this.find('h2.success').removeClass('hidden');
         $this.find('.waitlist-number').text('' + position);
+        ga('send', 'event', 'form', 'signup attempt success');
       }, function (err) {
         $this.find('h2.error').removeClass('hidden');
+        ga('send', 'event', 'form', 'signup attempt error');
         if (err.errors.email[0] === 'has already been taken') {
           $this.find('h2.error').text(alreadyTakenError);
         } else {
