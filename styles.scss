@@ -10,8 +10,12 @@ body,html {
   padding: 0;
 }
 
-h1 {
+@mixin fontbase {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  @include fontbase;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 0;
@@ -21,20 +25,24 @@ h1 {
 }
 
 h2 {
-  @extend h1;
+  @include fontbase;
   font-size: 24px;
   font-weight: 300;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
 }
 
 h3 {
-  @extend h1;
+  @include fontbase;
   font-size: 24px;
   color: $blue;
   text-align: left;
+  letter-spacing: .5px;
 }
 
 p {
-  @extend h3;
+  @include fontbase;
   font-size: 15px;
   font-weight: 300;
   color: $textColor;
