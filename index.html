@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head profile="http://www.sourcewifi.com/">
+
+		<meta property="og:url" content="http://sourcewifi.com" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:title" content="Source WiFi" />
+		<meta property="og:description" content="No more contracts. With Source, you can buy and sell WiFi on demand. Only pay for what you use at a super afforable price."/>
+		<meta property="og:image" content="http://sourcewifi.com/assets/logo.png" />
+		<meta property="fb:app_id" content="1880728315496038" />
+	
 		<!-- Script Tag for Optimizely.com (A/B) testing -->
 		<script src="https://cdn.optimizely.com/js/8171741790.js"></script>
 
@@ -223,6 +232,23 @@
 	</section>
 
 	<!-- scripts -->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '1880728315496038',
+				version    : 'v2.8'
+			});
+			FB.AppEvents.logPageView();
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<script src="/js/lib/jquery-slim.js" type="text/javascript"></script>
 	<script src="https://waitlisted.co/assets/api.js"></script>
 	<script src="/js/lib/clipboard.min.js" type="text/javascript"></script>

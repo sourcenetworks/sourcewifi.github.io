@@ -9,7 +9,7 @@ var api = new Waitlisted.Api({domain: "source-networks.app.waitlisted.co"})
 
 var unknownError = 'Uh oh. Looks like there was an error; try again later.';
 
-$('.social-media-links').find('a > .facebook, a > .twitter').click(function () {
+$('.social-media-links').find('a > .twitter').click(function () {
   if (mobileAndTabletcheck()) {
     return;
   }
@@ -65,7 +65,18 @@ $('form.sign-up-form').on('submit', function (e) {
 
 function handleSocialMediaReferralLinks(affiliate, $form) {
   $form.find('.referral').val(referralLink(affiliate));
-  $form.find('.social-media-icon.facebook').parent().attr('href', facebookShareLink(affiliate));
+  $form.find('.social-media-icon.facebook').parent()
+    .attr('href', facebookShareLink(affiliate))
+    .off('click')
+    .click(function (e) {
+      e.preventDefault();
+      FB.ui({
+        method: 'share',
+        href: referralLink(affiliate),
+        quote: 'I just signed up for the Source Networks waitlist - join me!',
+        mobile_iframe: true,
+      });
+    });
   $form.find('.social-media-icon.twitter').parent().attr('href', twitterShareLink(affiliate));
   $form.find('.social-media-icon.reddit').parent().attr('href', redditShareLink(affiliate));
 }
@@ -83,7 +94,7 @@ function getQueryParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-var justSignedUpText = encodeURIComponent('I just signed up for the Source Networks waitlist - join me! ');
+var justSignedUpText = encodeURIComponent('I just signed up for the Source Networks waitlist - join me!');
 
 function referralLink(affiliate) {
   return 'http://sourcewifi.com?refcode=' + affiliate;
