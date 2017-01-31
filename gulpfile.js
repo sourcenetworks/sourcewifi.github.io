@@ -13,7 +13,7 @@ function onError(err) {
 }
 
 gulp.task('sass', function(){
-  return gulp.src('styles.scss')
+  return gulp.src('*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 2 versions', 'Explorer >= 9', 'Android >= 4.1', 'Safari >= 7', 'iOS >= 7']
