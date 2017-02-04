@@ -7,6 +7,9 @@ var livereload = require('gulp-livereload');
 var connect = require('gulp-connect');
 var opener = require('opener');
 var deploy = require('gulp-gh-pages');
+var ejs = require("gulp-ejs");
+var gutil = require('gulp-util');
+var ext_replace = require('gulp-ext-replace');
 
 function onError(err) {
   console.error(err);
@@ -32,10 +35,18 @@ gulp.task('connect', function() {
   });
 });
 
+gulp.task('ejs', function() {
+  return gulp.src(['**/*.ejs', '!node_modules/**/*', '!partials/**/*'])
+    .pipe(ejs({}).on('error', gutil.log))
+    .pipe(ext_replace('.html'))
+    .pipe(gulp.dest('.'));
+});
+
 gulp.task('watch', function() {
   livereload.listen();
   gulp.watch('**/*.scss', ['sass']);
-  gulp.watch('index.html', function (changeEvent) {
+  gulp.watch('**/*.ejs', ['ejs']);
+  gulp.watch('**/index.html', function (changeEvent) {
     livereload.changed(changeEvent.path);
   });
 });
@@ -44,7 +55,7 @@ gulp.task('open', function(){
   opener('http://localhost:8080');
 });
 
-gulp.task('default', ['sass', 'watch', 'connect', 'open']);
+gulp.task('default', ['sass', 'ejs', 'watch', 'connect', 'open']);
 
 gulp.task('deploy', ['sass'], function () {
   return gulp.src(['./**/*', '!node_modules/**/*'])
