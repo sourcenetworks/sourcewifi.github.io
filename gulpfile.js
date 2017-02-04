@@ -16,7 +16,7 @@ function onError(err) {
 }
 
 gulp.task('sass', function(){
-  return gulp.src('*.scss')
+  return gulp.src('scss/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 2 versions', 'Explorer >= 9', 'Android >= 4.1', 'Safari >= 7', 'iOS >= 7']
@@ -38,6 +38,9 @@ gulp.task('connect', function() {
 gulp.task('ejs', function() {
   return gulp.src(['**/*.ejs', '!node_modules/**/*', '!partials/**/*'])
     .pipe(ejs({}).on('error', gutil.log))
+    .pipe(plumber({
+        errorHandler: onError
+    }))
     .pipe(ext_replace('.html'))
     .pipe(gulp.dest('.'));
 });

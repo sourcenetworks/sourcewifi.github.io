@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="331px" viewBox="0 0 430 331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>blockchain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="66.3287715%" y1="110.401401%" x2="37.168446%" y2="13.7154819%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#A3A3A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="16.9867892%" y1="77.6861891%" x2="57.7767589%" y2="7.22191829%" id="linearGradient-2">
+            <stop stop-color="#A0A0A0" offset="0%"></stop>
+            <stop stop-color="#BBBBBB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="396.279747%" y1="108.260761%" x2="0%" y2="59.8870377%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CDCDCD" offset="70.6639724%"></stop>
+            <stop stop-color="#C2C2C2" offset="88.635272%"></stop>
+            <stop stop-color="#BBBBBB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="82.1478339%" y1="55.3273417%" x2="50%" y2="56.1096609%" id="linearGradient-4">
+            <stop stop-color="#CCCCCC" offset="0%"></stop>
+            <stop stop-color="#BBBBBB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Technology" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Technology-1280" transform="translate(-725.000000, -771.000000)">
+            <g id="blockchain" transform="translate(725.000000, 771.000000)">
+                <g id="Group-7">
+                    <g id="Group-4-Copy" transform="translate(151.162319, 0.000000)">
+                        <g id="Group-3">
+                            <polygon id="Combined-Shape" fill="#D8D8D8" points="0 27.1212877 0 76.5777536 44.3986376 102.556251 44.3986376 53.099785"></polygon>
+                            <polygon id="Combined-Shape" fill="#ECECEC" points="90.5843067 26.26543 44.3631952 53.8105153 0 27.2553583 46.479465 0"></polygon>
+                            <polygon id="Combined-Shape-Copy-2" fill="#BCBCBC" points="43.7246377 53.2383865 43.7246377 102.694852 89.9273079 75.6866545 89.9273079 26.2301887"></polygon>
+                        </g>
+                        <polygon id="Combined-Shape-Copy-2" fill="url(#linearGradient-1)" points="92.7600196 129.70305 43.7246377 102.694852 89.9273079 75.6866545 138.96269 102.694852"></polygon>
+                    </g>
+                    <path d="M225.494203,143.016981 L310.444928,91.8056604" id="Line" stroke="url(#linearGradient-2)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5" opacity="0.628566576" transform="translate(267.969565, 117.411321) scale(1, -1) translate(-267.969565, -117.411321) "></path>
+                    <path d="M219.247826,66.8245283 L219.247826,89.3075472" id="Line" stroke="#909090" stroke-width="3" stroke-linecap="round" stroke-dasharray="5" opacity="0.504585598"></path>
+                    <path d="M219.247826,65.5754717 L332.931884,133.024528" id="Line-Copy-6" stroke="#42A5F5" stroke-width="3" stroke-linecap="round" stroke-dasharray="5"></path>
+                    <g id="Group-4-Copy-3" transform="translate(291.081159, 94.928302)">
+                        <g id="Group-3">
+                            <polygon id="Combined-Shape" fill="#D8D8D8" points="0 27.1212877 0 76.5777536 44.3986376 102.556251 44.3986376 53.099785"></polygon>
+                            <polygon id="Combined-Shape" fill="#ECECEC" points="90.5843067 26.26543 44.3631952 53.8105153 0 27.2553583 46.479465 0"></polygon>
+                            <polygon id="Combined-Shape-Copy-2" fill="#BCBCBC" points="43.7246377 53.2383865 43.7246377 102.694852 89.9273079 75.6866545 89.9273079 26.2301887"></polygon>
+                        </g>
+                        <polygon id="Combined-Shape-Copy-2" fill="url(#linearGradient-1)" points="92.7600196 129.70305 43.7246377 102.694852 89.9273079 75.6866545 138.96269 102.694852"></polygon>
+                    </g>
+                    <path d="M172.526087,71.0735849 L181.5,91.5" id="Line" stroke="url(#linearGradient-3)" stroke-width="3" stroke-linecap="round" stroke-dasharray="7"></path>
+                    <path d="M193.5,221.5 L181.5,95.5" id="Line" stroke="url(#linearGradient-4)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5"></path>
+                    <path d="M170.526087,68.0735849 L185.271676,230.313199" id="Line" stroke="#42A5F5" stroke-width="3" stroke-linecap="round" stroke-dasharray="5"></path>
+                    <g id="Group-4" transform="translate(0.000000, 94.928302)">
+                        <g id="Group-3">
+                            <polygon id="Combined-Shape" fill="#D8D8D8" points="0 27.1212877 0 76.5777536 44.3986376 102.556251 44.3986376 53.099785"></polygon>
+                            <polygon id="Combined-Shape" fill="#ECECEC" points="90.5843067 26.26543 44.3631952 53.8105153 0 27.2553583 46.479465 0"></polygon>
+                            <polygon id="Combined-Shape-Copy-2" fill="#BCBCBC" points="43.7246377 53.2383865 43.7246377 102.694852 89.9273079 75.6866545 89.9273079 26.2301887"></polygon>
+                        </g>
+                        <polygon id="Combined-Shape-Copy-2" fill="url(#linearGradient-1)" points="92.7600196 129.70305 43.7246377 102.694852 89.9273079 75.6866545 138.96269 102.694852"></polygon>
+                    </g>
+                    <path d="M74.3318841,236.696226 L159.282609,185.484906" id="Line" stroke="url(#linearGradient-2)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5" opacity="0.676120924" transform="translate(116.807246, 211.090566) scale(1, -1) translate(-116.807246, -211.090566) "></path>
+                    <path d="M68.0855072,160.503774 L68.0855072,182.986792" id="Line" stroke="#909090" stroke-width="3" stroke-linecap="round" stroke-dasharray="5" opacity="0.504585598"></path>
+                    <path d="M68.0855072,159.254717 L181.769565,229.201887" id="Line-Copy-6" stroke="#42A5F5" stroke-width="3" stroke-linecap="round" stroke-dasharray="5"></path>
+                    <g id="Group-4-Copy-2" transform="translate(151.162319, 201.098113)">
+                        <g id="Group-3">
+                            <polygon id="Combined-Shape" fill="#D8D8D8" points="0 27.1212877 0 76.5777536 44.3986376 102.556251 44.3986376 53.099785"></polygon>
+                            <polygon id="Combined-Shape" fill="#ECECEC" points="90.5843067 26.26543 44.3631952 53.8105153 0 27.2553583 46.479465 0"></polygon>
+                            <polygon id="Combined-Shape-Copy-2" fill="#BCBCBC" points="43.7246377 53.2383865 43.7246377 102.694852 89.9273079 75.6866545 89.9273079 26.2301887"></polygon>
+                        </g>
+                        <polygon id="Combined-Shape-Copy-2" fill="url(#linearGradient-1)" points="92.7600196 129.70305 43.7246377 102.694852 89.9273079 75.6866545 138.96269 102.694852"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

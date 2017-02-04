@@ -1,20 +1,10 @@
 @import 'variables';
+@import 'breakpoints';
 $navbar-height: 60px;
+$navbar-height-lg: 66px;
 
 $cubicBezier3s: 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
 $cubicBezier5s: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
-@media(max-width: 767px) {
-  .hidden-small-screens {
-    display: none;
-  }
-}
-
-@media(min-width: 768px) {
-  .hidden-large-screens {
-    display: none;
-  }
-}
 
 .va-container {
   display: table;
@@ -222,6 +212,79 @@ body {
       span {
         background-color: $textColor;
         transition: background-color 0.3s ease-out;
+      }
+    }
+  }
+}
+
+.topbar.large-screens {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $steelBlue;
+  height: $navbar-height-lg;
+  transition: background-color 0.2s ease-in;
+  &.inverse {
+    background-color: white;
+    box-shadow: 0px 6px 23px -10px #2C598B;
+  }
+  .logo-container {
+    height: $navbar-height-lg;
+    position: relative;
+    z-index: 2;
+    .topbar-logo {
+      width: $navbar-height-lg;
+      height: $navbar-height-lg;
+      display: inline-block;
+      margin: 0 5px 0 10px;;
+    }
+    .topbar-logo.inverse {
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      transition: opacity $cubicBezier3s;
+    }
+    .topbar-name {
+      font-weight: 600;
+      font-size: 38px;
+      text-decoration: none;
+      color: #494E52;
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: $navbar-height-lg + 20px;
+    }
+
+    nav ul {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      margin: 0;
+      li {
+        display: inline-block;
+        margin: 0 22px;
+        a {
+          text-decoration: none;
+          color: $textColor;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+      li.success-button {
+        padding: 12px 30px;
+        a {
+          color: white;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
     }
   }
