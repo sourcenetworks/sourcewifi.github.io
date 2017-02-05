@@ -135,12 +135,9 @@ input[type=text] {
 }
 
 .image-half-col {
-  width: 410px;
-  height: 360px;
-  @include breakpoint(small) {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  max-width: 410px;
+  height: auto;
 }
 
 .laptop {
@@ -168,7 +165,13 @@ input[type=text] {
 }
 
 .l-box {
-    padding: 1em;
+  padding: 1em;
+}
+
+.center-text-sm {
+  @include breakpoint(small) {
+    text-align: center;
+  }
 }
 
 .footer {
@@ -198,15 +201,6 @@ input[type=text] {
 	  margin-bottom: 0;
 	  color: white;
 	  text-align: center;
-	}
-
-	h3 {
-	  font-family: 'Open Sans', sans-serif;
-	  font-size: 20px;
-	  font-weight: 600;
-	  margin-bottom: 0;
-	  color: $blue;
-    line-height: 30px;
 	}
 
   .features {
@@ -348,6 +342,9 @@ form {
 }
 
 .spacer-div {
+  @include breakpoint(small) {
+    height: 30px;
+  }
   opacity: 0;
   height: 150px; 
   display: block; 
