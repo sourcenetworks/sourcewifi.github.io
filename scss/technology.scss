@@ -1,29 +1,6 @@
 @import 'variables';
 @import 'breakpoints';
 
-@mixin center-translateY {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-@mixin absoluteFill {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-}
-
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
 .spacer-line {
   margin-top: 0;
 }
