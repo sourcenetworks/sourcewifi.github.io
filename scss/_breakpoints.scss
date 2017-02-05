@@ -8,6 +8,9 @@
     @else if $point == small {
      @media (max-width: 767px) { @content ; }
   }
+    @else if $point == xsmall {
+    @media (max-width: 424px) { @content ; }
+  }
 }
 
 @include breakpoint(small) {
