@@ -31,7 +31,6 @@ gulp.task('sass', function(){
 
 gulp.task('connect', function() {
   connect.server({
-    root: './',
     livereload: true
   });
 });
@@ -50,7 +49,7 @@ gulp.task('watch', function() {
   livereload.listen();
   gulp.watch('**/*.scss', ['sass']);
   gulp.watch('**/*.ejs', ['ejs']);
-  gulp.watch('**/index.html', function (changeEvent) {
+  gulp.watch('**/*.html', function (changeEvent) {
     livereload.changed(changeEvent.path);
   });
 });
