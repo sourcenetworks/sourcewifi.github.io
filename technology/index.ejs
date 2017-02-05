@@ -32,7 +32,7 @@
 </head>
 
 <body>
-	<%- include('../partials/navbar') %>
+	<%- include('../partials/navbar', { active: 'technology' }) %>
 	<section class="hero">
 		<div class="hero-content">
 			<div class="background-container"></div>
@@ -127,7 +127,7 @@
 		</a>
 	</section>
 
-	<%- include('../partials/footer', { background: 'light-blue' }) %>
+	<%- include('../partials/footer', { background: 'white' }) %>
 	<!-- scripts -->
 	<script>
 		window.fbAsyncInit = function() {

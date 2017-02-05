@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../partials/ogTags', { url: 'http://sourcewifi.com/become-a-provider' }) %>
+	
+		<!-- Script Tag for Optimizely.com (A/B) testing -->
+		<script src="https://cdn.optimizely.com/js/8171741790.js"></script>
+
+		<!-- FAVICON -->
+		<link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="/css/lib/pure-min.css">
+		<link rel="stylesheet" href="/css/lib/pure-grids-responsive-min.css">
+
+		<!-- Open Sans FONT-->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+
+    	<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="/css/build/styles.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/navbar.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/footer.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/dark-navbar.css">		
+		<link rel="stylesheet" type="text/css" href="/css/build/become-a-provider.css">
+
+		<%- include('../partials/googleAnalytics') %>
+
+		<title>Source - Redefining WiFi</title>
+</head>
+
+<body>
+	<%- include('../partials/navbar', { active: 'become-a-provider' }) %>
+	<section class="hero">
+		<div class="pure-g">
+			<div id="filler1" class="pure-u-1 pure-u-md-4-24"></div>
+			<div id="red" class="pure-u-1 pure-u-md-10-24">
+				<div class="img-container">
+					<img src="/assets/homepage/host_router.svg" src="A happy earth with several Souce WiFi locations marked by flags">
+				</div>
+			</div>
+			<div id="blue" class="pure-u-1 pure-u-md-10-24">
+				<h2 class="title-2">Share your WiFi and make money doing it.</h2>
+				<h3>We‘re glad you‘re interested!</h3>
+			</div>
+		</div>
+	</section>
+
+	<section class="ribbon">
+		<p>Own a business and interested in hosting? <a href="/business">Learn more here</a></p>
+	</section>
+
+	<section class="purchase-router">
+		<div class="pure-g">
+      <div class="pure-u-1">
+        <h2 class="title-2 thin center-text">Purchase our preconfigured router</h2>
+        <p>
+					It’s the same cost as existing routers, and allows you to instantly become a Source Provider. If you’re in one of our launch cities, we can even install it for you!
+        </p>
+      </div>
+		</div>
+		<%- include('../partials/businessImageBullet', {
+			title: '2 WiFi Hotspots',
+			text: 'We do this so you can have one private internet connection and a public internet connection that Source Guests can instantly logon. Because the two networks are separate, there’s no way your private internet connection will ever slow down. This also comes with additional security features.',
+			imageSource: '/assets/become-a-provider/wifi_hotspots.svg',
+			imageAlt: 'two clouds with wifi symbols',
+		})%>
+		<%- include('../partials/businessImageBullet', {
+			title: 'Easy access through mobile app and laptop',
+			text: 'You can easily manage guest and friend access from the Source app on your phone. And do everything you already do on the app. Easily manage whitelists, blacklists (firewall settings), and other access controls, check how much you’ve made, and cash out.',
+			imageSource: '/assets/become-a-provider/mobile_app.svg',
+			imageAlt: 'a phone with a wifi symbol on it',
+		})%>
+		<%- include('../partials/businessImageBullet', {
+			title: 'Mesh Enabled',
+			text: 'When your internet goes down, devices connected to you will still be able to send messages to each other. You can easily install another unit in your house to extend your range.',
+			imageSource: '/assets/become-a-provider/mesh.svg',
+			imageAlt: 'a triangular graph',
+		})%>
+	</section>
+
+	<%- include('../partials/footer', { background: 'white' }) %>
+	<!-- scripts -->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '1880728315496038',
+				version    : 'v2.8'
+			});
+			FB.AppEvents.logPageView();
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script src="/js/lib/jquery-slim.js" type="text/javascript"></script>
+	<script src="https://waitlisted.co/assets/api.js"></script>
+	<script src="/js/lib/clipboard.min.js" type="text/javascript"></script>
+	<script src="/js/lib/html5tooltips.js" type="text/javascript"></script>
+	<script src="/js/menubar.js" type="text/javascript"></script>
+	<script src="/js/doClipboard.js" type="text/javascript"></script>
+	<script src="/js/handleWaitlisting.js" type="text/javascript"></script>
+</body>
