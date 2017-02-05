@@ -4,5 +4,5 @@ $steelBlue: #e2f2fe;
 $lightblue: #93CBF8;
 $darkblue: #2C598B;
 $textColor: #494E52;
-$successButtonColor: #7FC881;
-$successButtonHoverColor: #72B473;
+$successButtonColor: #42a5f5;
+$successButtonHoverColor: lighten($successButtonColor, 5%);

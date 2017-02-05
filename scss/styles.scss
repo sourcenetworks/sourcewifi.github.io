@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'breakpoints';
 
 ::selection {
   background: lighten($successButtonColor, 18%);
@@ -16,7 +17,7 @@ body,html {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h1, .title-1 {
   @include fontbase;
   font-size: 36px;
   font-weight: 600;
@@ -24,6 +25,10 @@ h1 {
   color: $textColor;
   text-align: center;
   letter-spacing: .5px;
+}
+
+.title-1 {
+  text-align: left;
 }
 
 h2 {
@@ -38,7 +43,8 @@ h2 {
 h3 {
   @include fontbase;
   font-size: 24px;
-  color: $blue;
+  color: $textColor;
+  font-weight: 600;
   text-align: left;
   letter-spacing: .5px;
 }
@@ -100,21 +106,41 @@ input[type=text] {
 .signUpButton {
   display: inline-block;
   width: 90%;
+  @include breakpoint(small) {
+    margin: 0 5%;
+  }
 }
 
-.mockup {
-  content: url("/assets/mockup.png");
-  width: 60%; 
-  display: block; 
-  margin: 0 auto; 
-  margin-bottom: 0px; 
-  margin-top: 40px;
+.hero-image-container {
+  position: relative;
+  height: 448px;
+  .hero-image {
+    position: absolute;
+    right: 0;
+  }
+  @include breakpoint(small) {
+    height: auto;
+    margin-top: 15px;
+    .hero-image {
+      position: relative;
+      width: 100%;
+    }
+  }
 }
 
 .features {
   width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.image-half-col {
+  width: 410px;
+  height: 360px;
+  @include breakpoint(small) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .laptop {
@@ -260,9 +286,12 @@ form {
 
   .msg-container {
     margin-top: 16px;
+    @include breakpoint(mediumAndAbove) {
+      margin-bottom: -100px;
+    }
   }
   p {
-    color: white;
+    color: $textColor;
     font-size: 18px;
     text-align: center;
     margin-bottom: 8px;
@@ -280,6 +309,7 @@ form {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       height: 40px;
+      color: $textColor;
     }
     .clipboard-btn {
       position: absolute;
@@ -311,4 +341,14 @@ form {
       margin: 0 10px;
     }
   }
+}
+
+.spacer-line {
+  margin-top: 30px;
+}
+
+.spacer-div {
+  opacity: 0;
+  height: 150px; 
+  display: block; 
 }

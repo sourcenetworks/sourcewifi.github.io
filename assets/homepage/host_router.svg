@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="505px" height="361px" viewBox="0 0 505 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>host_router</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="174.599213" cy="125.21475" rx="160.728308" ry="101.318704"></ellipse>
+        <linearGradient x1="-37.7427763%" y1="140.978274%" x2="77.4757266%" y2="18.1397612%" id="linearGradient-3">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-1280" transform="translate(-682.000000, -3269.000000)">
+            <g id="host_router" transform="translate(659.000000, 3269.000000)">
+                <ellipse id="Oval-11" fill="#C7E7FF" opacity="0.0399682971" transform="translate(275.456788, 197.545293) rotate(9.000000) translate(-275.456788, -197.545293) " cx="275.456788" cy="197.545293" rx="253.573327" ry="159.84565"></ellipse>
+                <ellipse id="Oval-11" fill="#C7E7FF" opacity="0.0974298007" transform="translate(276.155632, 179.300000) rotate(9.000000) translate(-276.155632, -179.300000) " cx="276.155632" cy="179.3" rx="198.062752" ry="124.853311"></ellipse>
+                <g id="Rectangle-15" transform="translate(100.000000, 44.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#C7E7FF" opacity="0.199558424" transform="translate(174.599213, 125.214750) rotate(9.000000) translate(-174.599213, -125.214750) " xlink:href="#path-1"></use>
+                    <polygon fill="url(#linearGradient-3)" style="mix-blend-mode: soft-light;" opacity="0.252321105" mask="url(#mask-2)" points="348.824687 176.057675 297.500435 148.159024 193.745467 210.903348 245.815186 239.124694"></polygon>
+                </g>
+                <g id="Group-57" transform="translate(151.000000, 0.000000)">
+                    <polygon id="Rectangle-15" fill="#88CAFF" points="0.754967764 138 142.783134 220 142.783134 254.844312 0.754967764 172.844312"></polygon>
+                    <g id="Group-53" transform="translate(0.000000, 75.000000)">
+                        <polygon id="Rectangle-15" fill="#C7E7FF" points="103.754968 0.241137886 245.783134 82.2411379 143.027768 145.215434 0.999601905 63.215434"></polygon>
+                        <polygon id="Rectangle-15" fill="#42A5F5" points="245.754968 82 246.500435 117.159024 142.745467 179.903348 142.745467 145.067019"></polygon>
+                        <polygon id="Rectangle-15" fill="#88CAFF" points="0.754967764 63 142.783134 145 142.783134 179.844312 0.754967764 97.8443122"></polygon>
+                        <path d="M127,147.167228 C127,145.233571 128.34967,144.445265 130.029589,145.415167 L130.970411,145.95835 C132.643607,146.924371 134,149.265521 134,151.20868 L134,151.552942 C134,153.486599 132.65033,154.274905 130.970411,153.305004 L130.029589,152.76182 C128.356393,151.7958 127,149.45465 127,147.51149 L127,147.167228 Z" id="Rectangle-15" fill="#19A79A"></path>
+                        <path d="M112,138.167228 C112,136.233571 113.34967,135.445265 115.029589,136.415167 L115.970411,136.95835 C117.643607,137.924371 119,140.265521 119,142.20868 L119,142.552942 C119,144.486599 117.65033,145.274905 115.970411,144.305004 L115.029589,143.76182 C113.356393,142.7958 112,140.45465 112,138.51149 L112,138.167228 Z" id="Rectangle-15-Copy" fill="#31C4B7"></path>
+                        <path d="M97,129.167228 C97,127.233571 98.3496704,126.445265 100.029589,127.415167 L100.970411,127.95835 C102.643607,128.924371 104,131.265521 104,133.20868 L104,133.552942 C104,135.486599 102.65033,136.274905 100.970411,135.305004 L100.029589,134.76182 C98.3563934,133.7958 97,131.45465 97,129.51149 L97,129.167228 Z" id="Rectangle-15-Copy-2" fill="#FFFFFF"></path>
+                        <path d="M83,120.167228 C83,118.233571 84.3496704,117.445265 86.0295894,118.415167 L86.9704106,118.95835 C88.6436066,119.924371 90,122.265521 90,124.20868 L90,124.552942 C90,126.486599 88.6503296,127.274905 86.9704106,126.305004 L86.0295894,125.76182 C84.3563934,124.7958 83,122.45465 83,120.51149 L83,120.167228 Z" id="Rectangle-15-Copy-3" fill="#FFEDB0"></path>
+                    </g>
+                    <g id="Group-56" transform="translate(109.000000, 0.000000)">
+                        <g id="Group-54" transform="translate(0.000000, 37.000000)">
+                            <polygon id="Rectangle-15" fill="#88CAFF" points="1 5.26355556 9 9.88235771 9 75.9410636 1 71.3222615"></polygon>
+                            <polygon id="Rectangle-15" fill="#42A5F5" transform="translate(13.000000, 40.338754) scale(-1, 1) translate(-13.000000, -40.338754) " points="9 5 17 9.61880215 17 75.6775081 9 71.0587059"></polygon>
+                            <polygon id="Rectangle-15-Copy-4" fill="#C7E7FF" transform="translate(8.997806, 5.164697) scale(-1, 1) translate(-8.997806, -5.164697) " points="8.92060368 0.439903749 17 5.27606457 9.02935708 9.8894894 0.995611248 5.0587059"></polygon>
+                        </g>
+                        <g id="Group-54" transform="translate(4.000000, 0.000000)">
+                            <polygon id="Rectangle-15" fill="#88CAFF" points="0.588235294 3.11657895 5.29411765 5.85139601 5.29411765 44.9651035 0.588235294 42.2302864"></polygon>
+                            <polygon id="Rectangle-15" fill="#42A5F5" transform="translate(7.647059, 23.884789) scale(-1, 1) translate(-7.647059, -23.884789) " points="5.29411765 2.96052632 10 5.69534338 10 44.8090508 5.29411765 42.0742338"></polygon>
+                            <polygon id="Rectangle-15-Copy-4" fill="#C7E7FF" transform="translate(5.292827, 3.058044) scale(-1, 1) translate(-5.292827, -3.058044) " points="5.24741393 0.260469325 10 3.1239856 5.31138652 5.85561872 0.585653675 2.99528639"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-55" transform="translate(175.000000, 38.000000)">
+                        <g id="Group-54" transform="translate(0.000000, 37.000000)">
+                            <polygon id="Rectangle-15" fill="#88CAFF" points="1 5.26355556 9 9.88235771 9 75.9410636 1 71.3222615"></polygon>
+                            <polygon id="Rectangle-15" fill="#42A5F5" transform="translate(13.000000, 40.338754) scale(-1, 1) translate(-13.000000, -40.338754) " points="9 5 17 9.61880215 17 75.6775081 9 71.0587059"></polygon>
+                            <polygon id="Rectangle-15-Copy-4" fill="#C7E7FF" transform="translate(8.997806, 5.164697) scale(-1, 1) translate(-8.997806, -5.164697) " points="8.92060368 0.439903749 17 5.27606457 9.02935708 9.8894894 0.995611248 5.0587059"></polygon>
+                        </g>
+                        <g id="Group-54-Copy" transform="translate(4.000000, 0.000000)">
+                            <polygon id="Rectangle-15" fill="#88CAFF" points="0.588235294 3.11657895 5.29411765 5.85139601 5.29411765 44.9651035 0.588235294 42.2302864"></polygon>
+                            <polygon id="Rectangle-15" fill="#42A5F5" transform="translate(7.647059, 23.884789) scale(-1, 1) translate(-7.647059, -23.884789) " points="5.29411765 2.96052632 10 5.69534338 10 44.8090508 5.29411765 42.0742338"></polygon>
+                            <polygon id="Rectangle-15-Copy-4" fill="#C7E7FF" transform="translate(5.292827, 3.058044) scale(-1, 1) translate(-5.292827, -3.058044) " points="5.24741393 0.260469325 10 3.1239856 5.31138652 5.85561872 0.585653675 2.99528639"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle-15" fill="url(#linearGradient-3)" style="mix-blend-mode: soft-light;" transform="translate(147.143078, 127.299440) scale(-1, 1) translate(-147.143078, -127.299440) " points="118 136.59003 118 146.598879 176.286156 112.618802 168.286156 108"></polygon>
+                    <polygon id="Rectangle-15-Copy-5" fill="url(#linearGradient-3)" style="mix-blend-mode: soft-light;" transform="translate(206.618923, 159.063286) scale(-1, 1) translate(-206.618923, -159.063286) " points="184 167.136512 192.171063 172.126572 229.237846 150.618802 221.237846 146"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
