@@ -8,3 +8,6 @@ $textColor: #4a4e52;
 $successButtonColor: #42a5f5;
 $successButtonHoverColor: lighten($successButtonColor, 5%);
 $offWhite: #f9fafe;
+
+$cubicBezier3s: 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+$cubicBezier5s: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);

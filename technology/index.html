@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head profile="http://www.sourcewifi.com/">
+	<head>
 
 		<meta property="og:url" content="http://sourcewifi.com/technology" />
 <meta property="og:type" content="website" />
@@ -20,10 +20,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="css/lib/pure-min.css">
-		<link rel="stylesheet" href="css/lib/pure-grids-responsive-min.css">
-		<link rel="stylesheet" href="css/lib/html5tooltips.css">
-		<link rel="stylesheet" href="css/lib/html5tooltips.animation.css">
+		<link rel="stylesheet" href="/css/lib/pure-min.css">
+		<link rel="stylesheet" href="/css/lib/pure-grids-responsive-min.css">
 
 		<!-- Open Sans FONT-->
 		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
@@ -31,6 +29,9 @@
     	<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="/css/build/styles.css">
 		<link rel="stylesheet" type="text/css" href="/css/build/navbar.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/footer.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/dark-navbar.css">		
+		<link rel="stylesheet" type="text/css" href="/css/build/technology.css">
 
 		<!-- Google Analytics Tag -->
 <script>
@@ -45,7 +46,6 @@
 
 
 		<title>Source - Redefining WiFi</title>
-
 </head>
 
 <body>
@@ -53,8 +53,8 @@
 <div class="topbar large-screens hidden-small-screens">
   <div class="logo-container va-container va-container-h">
     <a href="/">
-      <img class="topbar-logo va-middle" src="./assets/logo_blue.svg" />
-      <img class="topbar-logo va-middle inverse" src="./assets/logo_white.svg" />
+      <img class="topbar-logo va-middle" src="/assets/logo_blue.svg" />
+      <img class="topbar-logo va-middle inverse" src="/assets/logo_white.svg" />
       <div class="topbar-name va-middle">source</div>
     </a>
     <nav role="navigation">
@@ -70,8 +70,8 @@
 <div class="topbar small-screens hidden-large-screens">
   <div class="logo-container va-container va-container-h">
     <a href="/">
-      <img class="topbar-logo va-middle" src="./assets/logo_blue.svg" />
-      <img class="topbar-logo va-middle inverse" src="./assets/logo_white.svg" />
+      <img class="topbar-logo va-middle" src="/assets/logo_blue.svg" />
+      <img class="topbar-logo va-middle inverse" src="/assets/logo_white.svg" />
       <div class="topbar-name va-middle">source</div>
     </a>
     <div class="hamburger">
@@ -84,196 +84,173 @@
   </div>
   <nav class="mobile-nav" role="navigation">
     <ul>
-      <li><a href="index.html#features">What is it?</a></li>
-      <li><a href="index.html#sign-up">What is it?</a></li>
+      <li><a href="/technology">Technology</a></li>
+      <li><a href="/become-a-provider">Become a provider</a></li>
+      <li class="success-button"><a href="/#sign-up">Download</a></li>
     </ul>
   </nav>
 </div>
 
 	<section class="hero">
-		<div class="mobileWidth">
-			<h1 style="margin-top:100px"> Connect anywhere. </h1>
-			<h2 style="margin-top: 20px;"> Share the world’s wifi network. </h2>
+		<div class="hero-content">
+			<div class="background-container"></div>
+			<div class="pure-g">
+				<div class="pure-u-1 pure-u-md-12-24 order-1-small hero-text-centered">
+					<h1>Behind the technology that makes Source possible.</h1>
+				</div>
+				<div class="pure-u-1 pure-u-md-2-24"></div>
+				<div class="pure-u-1 pure-u-md-10-24 hero-image-centered">
+					<img src="/assets/technology/technology_foreground.svg" alt="A connected graph of nodes" />
+				</div>
+			</div>
 		</div>
-		<form id="sign-up" class="sign-up-form">
-			<div class="pure-g" style="margin-top: 40px;">
-				<div class="pure-u-1 pure-u-md-6-24"></div>
-					<div class="pure-u-1 pure-u-md-7-24">
-							<input type="text" name="reservation[email]" class="email-input" placeholder="name@email.com"><br>
-					</div>
-					<div class="pure-u-1 pure-u-md-5-24">
-							<input type="submit" class="signUpButton" value="Sign up for beta">
-					</div>
-					<div class="pure-u-1 pure-u-md-6-24"></div>
-			</div>
-			<div class="pure-g msg-container hidden">
-				<div class="pure-u-1 pure-u-md-6-24"></div>
-					<div class="pure-u-1 pure-u-md-1-2">
-							<div class="hidden success">
-								<h2>
-									Thanks! You're number <span class="waitlist-number"></span> on the waitlist. We’ll be
-									in touch when the beta is ready.
-								</h2>
-								<p>
-									Your referral link:
-								</p>
-								<div class="referral-box">
-									<input type="text" id="referral-1" class="referral">
-									<button class="clipboard-btn" data-clipboard-target="#referral-1">
-											<img src="assets/clippy.svg" alt="Copy to clipboard">
-									</button>
-								</div>
-								<div class="social-media-links">
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/facebook.png" class="social-media-icon facebook" alt="Share with Facebook"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/twitter.png" class="social-media-icon twitter" alt="Share with Twitter"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>									
-								</div>
-								<p>Climb higher on the waitlist by signing up your friends.</p>
-							</div>
-							<h2 class="hidden error">
-								Uh oh. Looks like there was an error; try again later.
-							</h2>
-							<div class="hidden already-signed-up">
-								<h2>
-									You’re already number <span class="waitlist-number"></span> on the waitlist.
-								</h2>
-								<p>
-									Your referral link:
-								</p>
-								<div class="referral-box">
-									<input type="text" id="referral-1" class="referral">
-									<button class="clipboard-btn" data-clipboard-target="#referral-1">
-											<img src="assets/clippy.svg" alt="Copy to clipboard">
-									</button>
-								</div>
-								<div class="social-media-links">
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/facebook.png" class="social-media-icon facebook" alt="Share with Facebook"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/twitter.png" class="social-media-icon twitter" alt="Share with Twitter"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>									
-								</div>
-								<p>Climb higher on the waitlist by signing up your friends.</p>
-							</div>
-							<h2 class="hidden invalid">
-								That’s not a valid email address! Did you make a typo?
-							</h2>
-					</div>
-				<div class="pure-u-1 pure-u-md-6-24"></div>
-			</div>
-		</form>
-		<img class="mockup">
+		<div class="hero-spacer"></div>
 	</section>
 
-	<section class="features" style="margin-top: 100px;">
+	<section class="blockchain">
+		<div class="pure-g">
+			<div class="pure-u-1 pure-u-md-12-24 order-1-small">
+				<h3>Utilizing the power of blockchain</h3>
+				<img class="spacer-line" src="/assets/homepage/blue_line.svg" alt="" />
+				<p>
+					Source is a blockchain powered network for internet access. By incentivizing every internet connected individual to share their internet access, we’re not only increasing the connectivity of digital consumers worldwide but also minimizing the costs of wireless access and communication. We are currently building on top of the Bitcoin and Ethereum blockchain, to power payments, authentication, and our registry of verified internet providers. We're building a platform to bring internet infrastructure into the modern age.
+				</p>
+			</div>
+			<div class="pure-u-1 pure-u-md-2-24"></div>
+			<div class="pure-u-1 pure-u-md-10-24 img-container">
+				<img src="/assets/technology/blockchain.svg" alt="A connected graph of nodes" />
+			</div>
+		</div>
+	</section>
+
+	<section class="features two-col-layout" style="margin-top: 100px;">
 		<div class="pure-g" style="margin-top: 40px;">
-			<div id="filler1" class="pure-u-1 pure-u-md-4-24"></div>
-			<div id="red" class="pure-u-1 pure-u-md-8-24 l-box">
-				<img class="laptop">
+			<div class="pure-u-1 pure-u-md-3-24"></div>
+			<div class="pure-u-1 pure-u-md-9-24 two-col center-text-sm">
+				<img class="image-half-col" src="assets/homepage/isometric@3x.png" alt="A city connected by Source"/>
 			</div>
-			<div id="blue" class="pure-u-1 pure-u-md-8-24 l-box">
-				<h3> Don’t worry about overpaying for internet. </h3>
-				<p style="margin-top: 25px;">No more contracts. With Source, you can buy and sell WiFi on demand. Only pay for what you use at a super affordable price.</p>
+			<div class="pure-u-1 pure-u-md-9-24 two-col">
+				<h3 class="title-1 center-text-sm">Internet everywhere.<br>Access anywhere. </h3>
+				<div class="center-text-sm">
+					<img class="spacer-line" src="/assets/homepage/blue_line.svg" alt="" />
+				</div>
+				<p style="margin-top: 25px;">Our mission at Source is to bring you instant internet access anywhere in the world. We automatically connect you to Source hosts, allowing you to connect to the internet automatically without the hassle of passwords.</p>
 			</div>
-			<div id="filler2" class="pure-u-1 pure-u-md-4-24"></div>
+			<div class="pure-u-1 pure-u-md-3-24"></div>
 		</div>
 
-		<img src="assets/spacer.png" style="width:50%;opacity: 0; height: auto; display: block; margin: 0 auto; margin-top: 50px;">
+		<div class="spacer-div"></div>
+	</section>
 
-		<div class="pure-g" style="margin-top: 40px;">
-			<div class="pure-u-1 pure-u-md-4-24"></div>
-			<div class="pure-u-1 pure-u-md-8-24 l-box">
-				<img class="earth">
+	<section class="steps-to-use off-white-bg">
+		<h2 class="title-1 center-text">It’s so simple to use.</h2>
+		<div class="pure-g three-col-container">
+			<div class="pure-u-1 pure-u-md-8-24 three-col center-text">
+				<div class="img-container">			
+					<img src="/assets/homepage/download.svg" alt="A laptop downloading Source" />
+				</div>
+				<p class="section-header">1. Download the Source app</p>
+				<p>No setup required. Just download our software and we’ll provide you with 5 hours of free internet.</p>
 			</div>
-			<div class="pure-u-1 pure-u-md-8-24 l-box">
-				<h3> Always have internet access when traveling. </h3>
-				<p style="margin-top: 25px;">Get instant access to our network of 10 million wifi networks around the world. Don’t worry about managing passwords either. We’ll instantly connect you to the fastest network available, encrypting all your data.</p>
+			<div class="pure-u-1 pure-u-md-8-24 three-col center-text">
+				<div class="img-container">
+					<img src="/assets/homepage/router.svg" alt="A router" />
+				</div>
+				<p class="section-header">2. Find a Source provider</p>
+				<p>There’s a growing network of Source hotspots around the world, so you never have to worry about being without internet.</p>
 			</div>
-			<div class="pure-u-1 pure-u-md-4-24"></div>
+			<div class="pure-u-1 pure-u-md-8-24 three-col center-text">
+				<div class="img-container">			
+					<img src="/assets/homepage/time.svg" alt="A clock" />
+				</div>
+				<p class="section-header">3. Only pay for what you use</p>
+				<p>We price at $4 per month, which is 3 times cheaper than existing data plans. You can even get free time by referring a friend.</p>
+			</div>
 		</div>
 
-		<img src="assets/spacer.png" style="width:50%;opacity: 0; height: auto; display: block; margin: 0 auto; margin-top: 50px;">
+		<div class="spacer-div"></div>
+	</section>
+
+	<section class="why-source two-col-layout" style="margin-top: 75px;">
+		<h2 class="title-1 center-text">Why Source?</h2>
+		<div class="pure-g" style="margin-top: 40px;">
+			<div id="filler1" class="pure-u-1 pure-u-md-3-24"></div>
+			<div id="red" class="pure-u-1 pure-u-md-9-24 two-col two-col-img-container">
+				<img src="assets/homepage/loading.svg" src="laptop with sad face because it can’t load pages">
+			</div>
+			<div id="blue" class="pure-u-1 pure-u-md-9-24 two-col">
+				<h3>Forget iffy connections.</h3>
+				<div class="center-text-sm spacer-line-container">
+					<img class="spacer-line" src="/assets/homepage/blue_line.svg" alt="" />
+				</div>
+				<p style="margin-top: 25px;">When you hop on an unknown network, the connection always seem to drop. With Source Networks, our host locations are always super safe, fast, and secure. Never worry about missing that Skype call with a loved one, or watching the latest Netflix show from back home. With Source, it’s like you never left home.</p>
+			</div>
+			<div id="filler2" class="pure-u-1 pure-u-md-3-24"></div>
+		</div>
+
+		<div class="spacer-div" style="height: 40px;"></div>
+
+		<div class="pure-g" style="margin-top: 40px;">
+			<div class="pure-u-1 pure-u-md-3-24"></div>
+			<div class="pure-u-1 pure-u-md-9-24 two-col two-col-img-container">
+				<img src="assets/homepage/cheaper.svg" src="two stacks of blocks, one of which is 3 times higher than the other">
+			</div>
+			<div class="pure-u-1 pure-u-md-9-24 two-col">
+				<h3>We’re 3 times cheaper than cell plans.</h3>
+				<div class="center-text-sm spacer-line-container">
+					<img class="spacer-line" src="/assets/homepage/blue_line.svg" alt="" />
+				</div>
+				<p style="margin-top: 25px;">85% of the time you’re using your smartphone’s data plan, you’re actually in range of a WiFi hotspot.. With Source, you never have to worry about overpaying. Whether you’re on your phone or your laptop, we’ll automatically switch you onto the fastest, cheapest network in range.</p>
+			</div>
+			<div class="pure-u-1 pure-u-md-3-24"></div>
+		</div>
+
+		<div class="spacer-div" style="height: 40px;"></div>
 
 		<div class="pure-g" style="margin-top: 40px; margin-bottom: 100px;">
-			<div id="filler1" class="pure-u-1 pure-u-md-4-24"></div>
-			<div id="red" class="pure-u-1 pure-u-md-8-24 l-box">
-				<img class="router">
+			<div id="filler1" class="pure-u-1 pure-u-md-3-24"></div>
+			<div id="red" class="pure-u-1 pure-u-md-9-24 two-col two-col-img-container">
+				<img src="assets/homepage/earth.png" src="A happy earth with several Souce WiFi locations marked by flags">
 			</div>
-			<div id="blue" class="pure-u-1 pure-u-md-8-24 l-box">
-				<h3> Make money as a provider </h3>
-				<p style="margin-top: 25px;">Download our software and instantly start sharing your wifi. We pay directly to your wallet as soon as anyone gets online using your wifi.</p>
+			<div id="blue" class="pure-u-1 pure-u-md-9-24 two-col">
+				<h3>Peace of mind when traveling.</h3>
+				<div class="center-text-sm spacer-line-container">
+					<img class="spacer-line" src="/assets/homepage/blue_line.svg" alt="" />
+				</div>
+				<p style="margin-top: 25px;">With Source, and our growing network of WiFi hotspots around the world, you never have to worry about being without internet. Even if we don’t have a Source host close by, our smartphone app can direct you to the nearest free WiFi hotspot.</p>
 			</div>
-			<div id="filler2" class="pure-u-1 pure-u-md-4-24"></div>
+			<div id="filler2" class="pure-u-1 pure-u-md-3-24"></div>
 		</div>
 	</section>
 
-	<section class="footer">
-		<h2>Sign up below for a private beta test.</h2>
-		<form class="sign-up-form">
-			<div class="pure-g" style="margin-top: 40px;">
-				<div class="pure-u-1 pure-u-md-6-24"></div>
-					<div class="pure-u-1 pure-u-md-7-24">
-							<input type="text" name="reservation[email]" class="email-input" placeholder="name@email.com"><br>
-					</div>
-					<div class="pure-u-1 pure-u-md-5-24">
-							<input type="submit" class="signUpButton" value="Sign up for beta">
-					</div>
-					<div class="pure-u-1 pure-u-md-6-24"></div>
+	<section class="become-a-provider">
+		<div class="pure-g">
+			<div id="filler1" class="pure-u-1 pure-u-md-4-24"></div>
+			<div id="red" class="pure-u-1 pure-u-md-10-24">
+				<div class="img-container">
+					<img src="assets/homepage/host_router.svg" src="A happy earth with several Souce WiFi locations marked by flags">
+				</div>
 			</div>
-			<div class="pure-g msg-container hidden">
-				<div class="pure-u-1 pure-u-md-6-24"></div>
-					<div class="pure-u-1 pure-u-md-1-2">
-							<div class="hidden success">
-								<h2>
-									Thanks! You're number <span class="waitlist-number"></span> on the waitlist. We’ll be
-									in touch when the beta is ready.
-								</h2>
-								<p>
-									Your referral link:
-								</p>
-								<div class="referral-box">
-									<input type="text" id="referral-1" class="referral">
-									<button class="clipboard-btn" data-clipboard-target="#referral-1">
-											<img src="assets/clippy.svg" alt="Copy to clipboard">
-									</button>
-								</div>
-								<div class="social-media-links">
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/facebook.png" class="social-media-icon facebook" alt="Share with Facebook"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/twitter.png" class="social-media-icon twitter" alt="Share with Twitter"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>									
-								</div>
-								<p>Climb higher on the waitlist by signing up your friends.</p>
-							</div>
-							<h2 class="hidden error">
-								Uh oh. Looks like there was an error; try again later.
-							</h2>
-							<div class="hidden already-signed-up">
-								<h2>
-									You’re already number <span class="waitlist-number"></span> on the waitlist. Thanks for your continued interest!
-								</h2>
-								<p>
-									Your referral link:
-								</p>
-								<div class="referral-box">
-									<input type="text" id="referral-1" class="referral">
-									<button class="clipboard-btn" data-clipboard-target="#referral-1">
-											<img src="assets/clippy.svg" alt="Copy to clipboard">
-									</button>
-								</div>
-								<div class="social-media-links">
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/facebook.png" class="social-media-icon facebook" alt="Share with Facebook"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/twitter.png" class="social-media-icon twitter" alt="Share with Twitter"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>									
-								</div>
-								<p>Climb higher on the waitlist by signing up your friends.</p>
-							</div>
-							<h2 class="hidden invalid">
-								That’s not a valid email address! Did you make a typo?
-							</h2>
-					</div>
-				<div class="pure-u-1 pure-u-md-6-24"></div>
+			<div id="blue" class="pure-u-1 pure-u-md-10-24">
+				<h2 class="title-2">Interested in cutting your own internet bills and becoming a host?</h2>
+				<h3>Get paid to share your WiFi.</h3>
+				<a href="/providing" class="button blue-button">Learn more about hosting</a>
 			</div>
-		</form>
-		<p style="color: white; font-size: 12px; text-align: center; margin-top: 100px;"> © Source Networks Inc., 2017 </p>
+		</div>
 	</section>
+	<section class="footer">
+  <nav role="navigation">
+    <ul>
+      <li><a href="/contact-us">Contact Us</a></li>
+      <li><a href="/team">Team</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/faq">FAQ</a></li>
+    </ul>
+  </nav>
+  <div class="copyright">
+    © 2017 Source Networks, LLC
+  </div>
+</section>
 
 	<!-- scripts -->
 	<script>

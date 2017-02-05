@@ -3,9 +3,6 @@
 $navbar-height: 60px;
 $navbar-height-lg: 66px;
 
-$cubicBezier3s: 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
-$cubicBezier5s: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
 .va-container {
   display: table;
 }
@@ -22,6 +19,9 @@ $cubicBezier5s: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
 body {
   padding-top: $navbar-height;
+  @include breakpoint(mediumAndAbove) {
+    padding-top: $navbar-height-lg;
+  }
 }
 
 .topbar.small-screens {
@@ -231,6 +231,16 @@ body {
   &.inverse {
     background-color: white;
     box-shadow: 0px 6px 23px -10px #2C598B;
+    .logo-container {
+      .topbar-name {
+        color: $textColor;
+        transition: all 0.3s ease-out;
+      }
+      nav ul li a {
+        color: $textColor;
+        transition: all 0.3s ease-out;
+      }
+    }
   }
   .logo-container {
     height: $navbar-height-lg;
@@ -252,7 +262,7 @@ body {
       font-weight: 600;
       font-size: 38px;
       text-decoration: none;
-      color: #494E52;
+      color: $textColor;
       display: block;
       position: absolute;
       top: 50%;

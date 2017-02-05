@@ -268,14 +268,13 @@ input[type=text] {
 }
 
 /* Small screens */
-@media screen and (max-width: 768px)	{
+@include breakpoint(small)	{
 
 	h1 {
 	  font-family: 'Open Sans', sans-serif;
 	  font-size: 30px;
 	  font-weight: 600;
 	  margin-bottom: 0;
-	  color: white;
 	  text-align: center;
 	}	
 
@@ -284,7 +283,6 @@ input[type=text] {
 	  font-size: 22px;
 	  font-weight: 300;
 	  margin-bottom: 0;
-	  color: white;
 	  text-align: center;
 	}
 

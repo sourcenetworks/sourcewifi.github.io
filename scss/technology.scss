@@ -1,0 +1,100 @@
+@import 'variables';
+@import 'breakpoints';
+
+@mixin center-translateY {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin absoluteFill {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.spacer-line {
+  margin-top: 0;
+}
+
+.order-1-small {
+  @include breakpoint(small) {
+    order: 1;
+  }
+}
+
+section {
+  padding: 30px 30px 0;
+  @include breakpoint(mediumAndAbove) {
+    padding: 30px 50px 0;
+  }
+  box-sizing: border-box;
+  p {
+    margin: 24px 0;
+  }
+}
+
+.hero-content {
+  margin-top: 30px;
+  position: relative;
+  .background-container {
+    @include absoluteFill();
+    background-repeat: repeat-x;
+    background-size: contain;
+    opacity: 0.2;
+    background-image: url('/assets/technology/technology_background.svg');
+    @include breakpoint(small) {
+      bottom: auto;
+      height: 256px;
+      background-size: cover;
+    }
+  }
+}
+
+.hero-text-centered {
+  h1 {
+    @include center-translateY();
+  }
+}
+
+.hero-image-centered {
+  @include breakpoint(small) {
+    text-align: center;
+    margin-bottom: 30px;
+    img {
+      max-height: 256px;
+    }
+  }
+  img {
+    @include center-translateY();
+    max-width: 100%;
+  }
+}
+
+.hero-spacer {
+  height: 80px;
+  @include breakpoint(small) {
+    height: 40px;
+  }
+}
+
+.blockchain {
+  margin-top: 50px;
+  @include breakpoint(small) {
+    text-align: center;
+    h3 {
+      text-align: center;
+    }
+  }
+  .img-container {
+    @include breakpoint(mediumAndAbove) {
+      padding-top: 40px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
