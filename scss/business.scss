@@ -12,6 +12,13 @@ section {
   }
 }
 
+.hero .flex-for-safari {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-content {
   position: relative;
 }
@@ -19,7 +26,6 @@ section {
 .hero-text-centered {
   h1 {
     @include breakpoint(mediumAndAbove) {
-      @include center-translateY();
       margin-top: -100px;
       text-align: left;
     }
@@ -36,8 +42,8 @@ section {
     }
   }
   img {
-    @include center-translateY();
     max-width: 100%;
+    align-self: flex-end;
   }
 }
 
