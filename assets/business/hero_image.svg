@@ -189,7 +189,7 @@
                 <use id="Rectangle-6" stroke="#000000" mask="url(#mask-2)" stroke-width="10" fill="#546F87" xlink:href="#path-1"></use>
                 <use id="Rectangle-6" stroke="#000000" mask="url(#mask-4)" stroke-width="10" fill="#8BA2B6" xlink:href="#path-3"></use>
                 <polygon id="Rectangle-6" fill="#121212" style="mix-blend-mode: soft-light;" points="93.1179454 341 341.160685 341 345.298261 381.832884 89.9653472 383.646321"></polygon>
-                <polygon id="Rectangle-6" fill="#000000" style="mix-blend-mode: overlay;" points="14.7073185 429.637103 422.679535 425.23716 438.741533 489 1.1737215 489"></polygon>
+                <polygon id="Rectangle-6" fill="#C5E5FD" points="14.7073185 429.637103 422.679535 425.23716 438.741533 489 1.1737215 489"></polygon>
                 <polygon id="Rectangle-6" fill="#121212" style="mix-blend-mode: soft-light;" points="57.1842159 341 65.5260734 341 60.4811281 382.369153 50.5108649 382.369153"></polygon>
                 <polygon id="Rectangle-6" fill="#121212" style="mix-blend-mode: soft-light;" transform="translate(375.507604, 361.684577) scale(-1, 1) translate(-375.507604, -361.684577) " points="374.673351 341 383.015208 341 377.970263 382.369153 368 382.369153"></polygon>
                 <g id="Group-11" transform="translate(47.000000, 0.000000)">
