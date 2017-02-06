@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<%- include('../partials/ogTags', { url: 'http://sourcewifi.com/business' }) %>
+	
+		<!-- Script Tag for Optimizely.com (A/B) testing -->
+		<script src="https://cdn.optimizely.com/js/8171741790.js"></script>
+
+		<!-- FAVICON -->
+		<link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="/css/lib/normalize.css">	
+		<link rel="stylesheet" href="/css/lib/pure-min.css">
+		<link rel="stylesheet" href="/css/lib/pure-grids-responsive-min.css">
+
+		<!-- Open Sans FONT-->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+
+    	<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="/css/build/styles.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/navbar.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/footer.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/contact.css">
+
+		<%- include('../partials/googleAnalytics') %>
+
+		<title>Source - Redefining WiFi</title>
+</head>
+<body>
+	<%- include('../partials/navbar', { active: 'technology' }) %>
+	<div class="pure-g" style="margin-top: 150px;">
+	    <div class="pure-u-1 pure-u-md-3-8"> 
+	    	<img class="mailbox" src="/assets/contact/mailbox.png">
+	    </div>
+	    <div class="pure-u-1 pure-u-md-5-8"> 
+	    	<h2 style="margin-top: 0px;"> Questions, comments or concerns? Feel free to reach out to us. </h2>
+	    	<div class="pure-g" style="margin-top: 40px;">
+				<div class="pure-u-1 pure-u-md-12-24">
+					<input type="text" name="reservation[email]" class="name-input" placeholder="name"><br>
+				</div>
+				<div class="pure-u-1 pure-u-md-12-24">
+							<input type="text" name="reservation[email]" class="email-input" placeholder="email"><br>
+				</div>
+	    	</div>
+	    	<div class="pure-u-1">
+	    		<input type="text" name="reservation[email]" class="comment-input" placeholder="Questions or comments" style="height: 150px;"><br>
+	    		<input type="submit" class="submitButton" value="Submit">
+	    	</div>
+		</div>
+
+	</div>
+</body>
