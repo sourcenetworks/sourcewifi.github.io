@@ -5,8 +5,7 @@
 	width: 50%;
 	text-align: center;
 	display: block;
-	margin: 0 auto;
-	margin-top: 70px;
+	margin: 80px auto;
 	@include breakpoint(small) {
 		width: 90%;
 	}
