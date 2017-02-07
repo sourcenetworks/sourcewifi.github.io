@@ -2,15 +2,8 @@
 <html lang="en">
 	<head profile="http://www.sourcewifi.com/">
 
-		<meta property="og:url" content="http://sourcewifi.com" />
-<meta property="og:type" content="website" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:title" content="Source WiFi" />
-<meta property="og:description" content="No more contracts. With Source, you can buy and sell WiFi on demand. Only pay for what you use at a super affordable price."/>
-<meta property="og:image" content="http://sourcewifi.com/assets/logo.png" />
-<meta property="fb:app_id" content="1880728315496038" />
-
-
+		<%- include('partials/ogTags', { url: 'http://sourcewifi.com' }) %>
+	
 		<!-- Script Tag for Optimizely.com (A/B) testing -->
 		<script src="https://cdn.optimizely.com/js/8171741790.js"></script>
 
@@ -33,65 +26,14 @@
 		<link rel="stylesheet" type="text/css" href="/css/build/navbar.css">
 		<link rel="stylesheet" type="text/css" href="/css/build/footer.css">
 
-		<!-- Google Analytics Tag -->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-90590622-1', 'auto');
-    ga('send', 'pageview');
-</script>
-
+		<%- include('partials/googleAnalytics') %>
 
 		<title>Source - Redefining WiFi</title>
 
 </head>
 
 <body>
-	<!-- Navigation -->
-<div class="topbar large-screens hidden-small-screens">
-  <div class="logo-container va-container va-container-h">
-    <a href="/">
-      <img class="topbar-logo va-middle" src="/assets/logo_blue.svg" />
-      <img class="topbar-logo va-middle inverse" src="/assets/logo_white.svg" />
-      <div class="topbar-name va-middle">source</div>
-    </a>
-    <nav role="navigation">
-      <ul>
-        <li class=""><a href="/technology">Technology</a></li>
-        <li class=""><a href="/become-a-provider">Become a provider</a></li>
-        <li class="success-button"><a href="/#sign-up">Download</a></li>
-      </ul>
-    </nav>
-  </div>
-</div>
-
-<div class="topbar small-screens hidden-large-screens">
-  <div class="logo-container va-container va-container-h">
-    <a href="/">
-      <img class="topbar-logo va-middle" src="/assets/logo_blue.svg" />
-      <img class="topbar-logo va-middle inverse" src="/assets/logo_white.svg" />
-      <div class="topbar-name va-middle">source</div>
-    </a>
-    <div class="hamburger">
-      <div id="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <nav class="mobile-nav" role="navigation">
-    <ul>
-      <li><a href="/technology">Technology</a></li>
-      <li><a href="/become-a-provider">Become a provider</a></li>
-      <li class="success-button"><a href="/#sign-up">Sign Up</a></li>
-    </ul>
-  </nav>
-</div>
-
+	<%- include('partials/navbar', { active: 'none' }) %>
 	<section class="hero">
 		<div class="mobileWidth">
 			<h1 style="margin-top:100px"> Connect anywhere. </h1>
@@ -128,7 +70,7 @@
 								<div class="social-media-links">
 									<a rel="noopener noreferrer" target="_blank"><img src="assets/facebook.png" class="social-media-icon facebook" alt="Share with Facebook"/></a>
 									<a rel="noopener noreferrer" target="_blank"><img src="assets/twitter.png" class="social-media-icon twitter" alt="Share with Twitter"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>
+									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>									
 								</div>
 								<p>Climb higher on the waitlist by signing up your friends.</p>
 							</div>
@@ -151,7 +93,7 @@
 								<div class="social-media-links">
 									<a rel="noopener noreferrer" target="_blank"><img src="assets/facebook.png" class="social-media-icon facebook" alt="Share with Facebook"/></a>
 									<a rel="noopener noreferrer" target="_blank"><img src="assets/twitter.png" class="social-media-icon twitter" alt="Share with Twitter"/></a>
-									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>
+									<a rel="noopener noreferrer" target="_blank"><img src="assets/reddit.png" class="social-media-icon reddit" alt="Share with Reddit"/></a>									
 								</div>
 								<p>Climb higher on the waitlist by signing up your friends.</p>
 							</div>
@@ -190,7 +132,7 @@
 		<h2 class="title-1 center-text">It’s so simple to use.</h2>
 		<div class="pure-g three-col-container">
 			<div class="pure-u-1 pure-u-md-8-24 three-col center-text">
-				<div class="img-container">
+				<div class="img-container">			
 					<img src="/assets/homepage/download.svg" alt="A laptop downloading Source" />
 				</div>
 				<p class="section-header">1. Download the Source app</p>
@@ -204,7 +146,7 @@
 				<p>There’s a growing network of Source hotspots around the world, so you never have to worry about being without internet.</p>
 			</div>
 			<div class="pure-u-1 pure-u-md-8-24 three-col center-text">
-				<div class="img-container">
+				<div class="img-container">			
 					<img src="/assets/homepage/time.svg" alt="A clock" />
 				</div>
 				<p class="section-header">3. Only pay for what you use</p>
@@ -282,24 +224,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="
-  footer
-  off-white-bg
-  "
-  >
-  <nav role="navigation">
-    <ul>
-      <li><a href="/contact-us">Contact Us</a></li>
-      <li><a href="/team">Team</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/faq">FAQ</a></li>
-    </ul>
-  </nav>
-  <div class="copyright">
-    © 2017 Source Networks, LLC
-  </div>
-</section>
-
+	<%- include('partials/footer', { background: 'off-white' }) %>
 	<!-- scripts -->
 	<script>
 		window.fbAsyncInit = function() {

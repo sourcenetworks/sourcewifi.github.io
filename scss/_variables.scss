@@ -1,0 +1,36 @@
+$font-family: 'Open Sans', sans-serif;
+$blue: #42A5F5;
+$steelBlue: #e2f2fe;
+$lightblue: #93CBF8;
+$darkblue: #2C598B;
+$inkyBlue: #003d63;
+$textColor: #4a4e52;
+$successButtonColor: #42a5f5;
+$successButtonHoverColor: lighten($successButtonColor, 5%);
+$offWhite: #f9fafe;
+
+$cubicBezier3s: 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+$cubicBezier5s: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+@mixin center-translateY {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin absoluteFill {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

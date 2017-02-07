@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="99px" viewBox="0 0 198 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="19" cy="19" rx="19" ry="19"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="44" height="44">
+            <rect x="-3" y="-3" width="44" height="44" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-1280" transform="translate(-228.000000, -1403.000000)">
+            <g id="download" transform="translate(228.000000, 1403.000000)">
+                <path d="M52,92 L198,92 L198,95.5 C198,97.4329966 196.434716,99 194.499249,99 L55.5007512,99 C53.5673397,99 52,97.4290634 52,95.5 L52,92 Z" id="Rectangle-10-Copy" fill="#A1B3BD"></path>
+                <rect id="Rectangle-10-Copy-3" fill="#A1B3BD" x="43" y="0" width="155" height="92"></rect>
+                <rect id="Rectangle-10-Copy-2" fill="#D0D8DC" x="42" y="0" width="155" height="92"></rect>
+                <rect id="Rectangle-10-Copy-2" fill="#A1B3BC" x="47" y="5" width="145" height="82"></rect>
+                <g id="Group-7" transform="translate(100.000000, 27.000000)">
+                    <g id="Group-31">
+                        <g id="Oval-3">
+                            <use fill="#7FC881" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-30" transform="translate(12.160000, 10.640000)" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+                            <path d="M6.84,0.76 L6.84,15.96" id="Line"></path>
+                            <path d="M0.76,11.4 L6.84,15.96" id="Line"></path>
+                            <path d="M6.84,11.4 L12.92,15.96" id="Line" transform="translate(9.880000, 13.680000) scale(-1, 1) translate(-9.880000, -13.680000) "></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-28" transform="translate(0.000000, 92.000000)">
+                    <path d="M0,2.00591905 C0,0.898080551 0.890874643,0 2.00221793,0 L155,0 L155,3.5 C155,5.43299662 153.440764,7 151.508424,7 L3.49157647,7 C1.56323203,7 0,5.42906336 0,3.5 L0,2.00591905 Z" id="Rectangle-10" fill="#D0D8DC"></path>
+                    <path d="M70,0 L85,0 L85,1 C85,1.55228475 84.5510798,2 83.992516,2 L71.007484,2 C70.4510659,2 70,1.55613518 70,1 L70,0 Z" id="Rectangle-10" fill="#A1B3BC"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
