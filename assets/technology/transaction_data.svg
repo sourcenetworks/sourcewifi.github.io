@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="129px" viewBox="0 0 99 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>transaction_data</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Technology" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Technology-1280" transform="translate(-591.000000, -4158.000000)" stroke="#42A5F5">
+            <g id="transaction_data" transform="translate(594.000000, 4161.000000)">
+                <g id="Group-22" transform="translate(23.000000, 0.000000)" stroke-width="5">
+                    <path d="M0,22.9933242 C0,10.2944619 10.2946578,0 23,0 L23,0 C35.7025492,0 46,10.2911284 46,22.9933242 L46,56.0026951 C46,63.7331931 39.7243728,70 31.9954857,70 L14.0045143,70 C6.27003463,70 0,63.7263632 0,56.0026951 L0,22.9933242 Z" id="Rectangle-8" fill="#FAFAFA"></path>
+                    <rect id="Rectangle-8" fill="#E8F5FF" x="9" y="9" width="29" height="57"></rect>
+                    <rect id="Rectangle-8" fill="#FAFAFA" x="9" y="14" width="29" height="57"></rect>
+                </g>
+                <rect id="Rectangle-8" stroke-width="5" fill="#42A5F5" x="0" y="53" width="93" height="70"></rect>
+                <rect id="Rectangle-8" stroke-width="5" fill="#E8F5FF" x="0" y="44" width="93" height="70"></rect>
+                <g id="Group-23" transform="translate(15.000000, 61.000000)" stroke-width="3">
+                    <circle id="Oval-9" fill="#FAFAFA" cx="6.5" cy="30.5" r="6.5"></circle>
+                    <circle id="Oval-9-Copy" fill="#FAFAFA" cx="20.5" cy="12.5" r="6.5"></circle>
+                    <circle id="Oval-9-Copy-3" fill="#FAFAFA" cx="57.5" cy="6.5" r="6.5"></circle>
+                    <circle id="Oval-9-Copy-2" fill="#FAFAFA" cx="43.5" cy="24.5" r="6.5"></circle>
+                    <path d="M11.5,23.5 L15.5,18.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M48.5,17.5 L52.5,12.5" id="Line-Copy-27" stroke-linecap="square"></path>
+                    <path d="M36.5,20.5 L28.5,15.5" id="Line" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

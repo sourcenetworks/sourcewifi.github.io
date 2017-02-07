@@ -1,0 +1,26 @@
+@mixin breakpoint($point) {
+   @if $point == largeAndAbove {
+     @media (min-width: 1280px) { @content ; }
+  }
+   @else if $point == mediumAndAbove {
+     @media (min-width: 768px) { @content ; }
+  }
+    @else if $point == small {
+     @media (max-width: 767px) { @content ; }
+  }
+    @else if $point == xsmall {
+    @media (max-width: 424px) { @content ; }
+  }
+}
+
+@include breakpoint(small) {
+  .hidden-small-screens {
+    display: none;
+  }
+}
+
+@include breakpoint(mediumAndAbove) {
+  .hidden-large-screens {
+    display: none;
+  }
+}

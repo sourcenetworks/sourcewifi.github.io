@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="155px" viewBox="0 0 172 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>infrastructure</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Technology" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Technology-1280" transform="translate(-554.000000, -1977.000000)" stroke-width="5">
+            <g id="infrastructure" transform="translate(557.000000, 1980.000000)">
+                <path d="M0,112.057851 L166,112.057851 L166,139.99837 C166,144.969833 161.978858,149 157.00152,149 L8.99847995,149 C4.0287567,149 0,144.976218 0,139.99837 L0,112.057851 Z" id="Rectangle-6" stroke="#42A5F5" fill="#42A5F5"></path>
+                <path d="M13.9744457,63.6285066 C14.4926788,62.0533717 16.2605522,60.7764727 17.915682,60.7764727 L148.083958,60.7764727 C149.74241,60.7764727 151.507115,62.0538362 152.025195,63.6285066 L165.388085,104.244122 C167.479153,110.599784 164.039641,115.752066 157.682301,115.752066 L8.31733938,115.752066 C1.97048425,115.752066 -1.48116445,110.604804 0.611555217,104.244122 L13.9744457,63.6285066 Z" id="Rectangle-6" stroke="#42A5F5" fill="#E8F5FF"></path>
+                <path d="M16.6,132.376033 L42.4222222,132.376033" id="Line" stroke="#FAFAFA" stroke-linecap="round"></path>
+                <path d="M52.2592593,132.376033 L57.1777778,132.376033" id="Line" stroke="#FAFAFA" stroke-linecap="round"></path>
+                <g id="Group-12" transform="translate(120.503704, 130.528926)" stroke="#FAFAFA" stroke-linecap="round">
+                    <path d="M2.45925926,0 L0,4.26571191" id="Line-Copy-8"></path>
+                    <path d="M13.5259259,0 L11.0666667,4.26571191" id="Line-Copy-9"></path>
+                    <path d="M24.5925926,0 L22.1333333,4.26571191" id="Line-Copy-10"></path>
+                </g>
+                <g id="Group-13" transform="translate(45.496296, 0.000000)" stroke="#42A5F5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                    <rect id="Rectangle-7" x="0" y="35.7107438" width="11.0666667" height="35.7107438"></rect>
+                    <rect id="Rectangle-7" x="1.22962963" y="0" width="8.60740741" height="35.7107438"></rect>
+                </g>
+                <g id="Group-13-Copy" transform="translate(109.437037, 0.000000)" stroke="#42A5F5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                    <rect id="Rectangle-7" x="0" y="35.7107438" width="11.0666667" height="35.7107438"></rect>
+                    <rect id="Rectangle-7" x="1.22962963" y="0" width="8.60740741" height="35.7107438"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

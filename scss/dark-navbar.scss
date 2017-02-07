@@ -1,0 +1,47 @@
+@import 'variables';
+@import 'breakpoints';
+
+.topbar.small-screens {
+  .logo-container {
+    background-color: $inkyBlue;
+    .topbar-name {
+      color: white;
+    }
+  }
+  .hamburger {
+    #menu-toggle {
+      border-color: white;
+      span {
+        background: white;
+      }
+    }
+  }
+  &.active {
+    .hamburger #menu-toggle span {
+      background: $textColor;
+    }
+    .logo-container {
+      transition: background-color 0.1s ease-out;
+    }
+    .mobile-nav {
+      transition: opacity $cubicBezier3s, transform $cubicBezier3s, background-color 0.1s ease-out;
+    }
+  }
+}
+
+.topbar.large-screens {
+  background-color: $inkyBlue;
+  .logo-container .topbar-name {
+    color: white;
+  }
+  .logo-container nav ul li a {
+    color: white;
+  }
+}
+
+.hero {
+  background-color: $inkyBlue;
+  h1, h2, h3, h4, h5, p {
+    color: white;
+  }
+}

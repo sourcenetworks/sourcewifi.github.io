@@ -1,0 +1,44 @@
+@import 'variables';
+@import 'breakpoints';
+
+.mailbox {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+input[type=text] {
+    width: 90%;
+    display: block;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0px solid black;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+}
+
+.submitButton {
+  display: inline-block;
+  width: 90%;
+  border: 0px solid;
+  box-shadow: 0px -5px 0px -5px $darkblue;
+  background-color: $successButtonColor;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 15px 0px;
+  text-decoration: none;
+  margin: 0 auto;
+  transition-duration: 0.3s;
+  &:hover {
+    background-color: $successButtonHoverColor;  
+  }
+  @include breakpoint(small) {
+    margin: 0 5%;
+  }
+}
