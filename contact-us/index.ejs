@@ -23,6 +23,7 @@
     	<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="/css/build/styles.css">
 		<link rel="stylesheet" type="text/css" href="/css/build/navbar.css">
+		<link rel="stylesheet" type="text/css" href="/css/build/white-navbar.css">
 		<link rel="stylesheet" type="text/css" href="/css/build/footer.css">
 		<link rel="stylesheet" type="text/css" href="/css/build/contact.css">
 
@@ -31,25 +32,31 @@
 		<title>Source - Redefining WiFi</title>
 </head>
 <body>
-	<%- include('../partials/navbar', { active: 'technology' }) %>
-	<div class="pure-g" style="margin-top: 150px;">
-	    <div class="pure-u-1 pure-u-md-3-8"> 
-	    	<img class="mailbox" src="/assets/contact/mailbox.png">
+	<%- include('../partials/navbar', { active: 'none' }) %>
+	<div class="pure-g responsive-container" style="margin-top: 150px;">
+	    <div class="pure-u-1 pure-u-md-3-8">
+				<div class="mailbox-container">
+					<img class="mailbox" src="/assets/contact/mailbox.png" alt="mailbox">
+				</div>
 	    </div>
 	    <div class="pure-u-1 pure-u-md-5-8"> 
 	    	<h2 style="margin-top: 0px;"> Questions, comments or concerns? Feel free to reach out to us. </h2>
 	    	<div class="pure-g" style="margin-top: 40px;">
-				<div class="pure-u-1 pure-u-md-12-24">
-					<input type="text" name="reservation[email]" class="name-input" placeholder="name"><br>
+					<div class="pure-u-1 pure-u-md-12-24">
+						<input type="text" name="reservation[email]" class="name-input" placeholder="name"><br>
+					</div>
+					<div class="pure-u-1 pure-u-md-12-24">
+								<input type="text" name="reservation[email]" class="email-input" placeholder="email"><br>
+					</div>
+					</div>
+					<div>
+						<textarea type="text" name="reservation[email]" class="comment-input" placeholder="Questions or comments" style="height: 150px;"></textarea>
+						<br>
+					</div>
+					<div>
+						<input type="submit" class="blue-button submitButton" value="Submit">
+					</div>					
 				</div>
-				<div class="pure-u-1 pure-u-md-12-24">
-							<input type="text" name="reservation[email]" class="email-input" placeholder="email"><br>
-				</div>
-	    	</div>
-	    	<div class="pure-u-1">
-	    		<input type="text" name="reservation[email]" class="comment-input" placeholder="Questions or comments" style="height: 150px;"><br>
-	    		<input type="submit" class="submitButton" value="Submit">
-	    	</div>
 		</div>
 
 	</div>

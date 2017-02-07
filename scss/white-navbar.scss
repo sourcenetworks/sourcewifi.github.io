@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'breakpoints';
+
+.topbar.small-screens {
+  .logo-container {
+    background-color: white;
+  }
+}
+
+.topbar.large-screens {
+  background-color: white;
+}
+
+.hero {
+  background-color: white;
+}
