@@ -121,6 +121,10 @@ body,html {
   background-color: $offWhite;
 }
 
+body {
+  @include fontbase;
+}
+
 h1, .title-1 {
   @include fontbase;
   font-size: 36px;
