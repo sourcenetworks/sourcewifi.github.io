@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="42px" viewBox="0 0 26 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BecomeAHost" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Become-a-host-1280" transform="translate(-98.000000, -2404.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="phone" transform="translate(99.000000, 2405.000000)">
+                <rect id="Rectangle-34" x="0" y="0" width="24" height="40" rx="3"></rect>
+                <circle id="Oval-7" cx="12" cy="34" r="2"></circle>
+                <path d="M10,4 L14,4" id="Path-19" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="36px" viewBox="0 0 41 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BecomeAHost" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Become-a-host-1280" transform="translate(-90.000000, -2784.000000)">
+            <g id="heart" transform="translate(88.000000, 2779.000000)">
+                <rect id="cont" fill="#181818" opacity="0" x="0" y="0" width="44" height="44"></rect>
+                <path d="M24.9289321,8.92893186 C28.834175,5.02368895 35.1658248,5.02368895 39.0710677,8.92893186 C42.9763106,12.8341748 42.9763106,19.1658246 39.0710677,23.0710675 L22.4999998,39.6421354 L5.92893186,23.0710675 C2.02368895,19.1658246 2.02368895,12.8341748 5.92893186,8.92893186 C9.83417478,5.02368895 16.1658246,5.02368895 20.0710675,8.92893186 C21.2169215,10.0747859 22.0265656,11.429534 22.4999998,12.8705911 C22.9734339,11.429534 23.783078,10.0747859 24.9289321,8.92893186 Z" id="Oval-26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M13,10 C9.6862915,10 7,12.6862915 7,16" id="Oval-42" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

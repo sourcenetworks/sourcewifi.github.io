@@ -1,1 +1,1 @@
-@media (max-width:767px){.hidden-small-screens{display:none}}@media (min-width:768px){.hidden-large-screens{display:none}}.hero,.topbar.large-screens,.topbar.small-screens .logo-container{background-color:#fff}
+@media (max-width:424px){.hidden-xsmall-screens{display:none}}@media (min-width:425px){.hidden-above-xsmall{display:none}}@media (max-width:767px){.hidden-small-screens{display:none}}@media (min-width:768px){.hidden-large-screens{display:none}}.hero,.topbar.large-screens,.topbar.small-screens .logo-container{background-color:#fff}

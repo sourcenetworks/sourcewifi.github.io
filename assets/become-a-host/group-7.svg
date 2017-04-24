@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="82" viewBox="0 0 132 82">
+    <defs>
+        <path id="a" d="M43.567 49.351a2.08 2.08 0 0 1 2.084-2.078H62.23c1.151 0 2.084.923 2.084 2.078v2.078H43.567v-2.078z"/>
+        <path id="b" d="M70.537 49.351a2.08 2.08 0 0 1 2.085-2.078h16.577c1.152 0 2.085.923 2.085 2.078v2.078H70.537v-2.078z"/>
+        <path id="c" d="M0 55.586h25.933v19.742H0z"/>
+        <path id="d" d="M4.149 59.742h17.634v11.429H4.149z"/>
+        <path id="e" d="M23.137 75.327h-2.075l1.551 2.667c.29.497.524.434.524-.131v-2.536z"/>
+        <path id="f" d="M4.87 75.327H2.797l1.551 2.667c.29.497.524.434.524-.131v-2.536z"/>
+        <rect id="g" width="7.261" height="8.312" x="56.015" y="6.751" rx="2"/>
+        <path id="h" d="M14.522 3.634h2.075v11.429h-2.075z"/>
+        <path id="i" d="M17.634 3.634h2.075v11.429h-2.075z"/>
+        <path id="j" d="M20.746 3.634h2.075v11.429h-2.075z"/>
+        <path id="k" d="M26.97 3.634h2.075v11.429H26.97z"/>
+        <rect id="l" width="13.485" height="15.586" rx="2"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1)">
+        <path fill="#F2FAFC" stroke="#42A5F5" stroke-width="3" d="M41.493 77.405c0 1.148-1.394 2.078-3.112 2.078-1.719 0-3.112-.93-3.112-2.078M99.582 77.405c0 1.148-1.393 2.078-3.112 2.078-1.718 0-3.112-.93-3.112-2.078"/>
+        <path stroke="#42A5F5" stroke-width="3" d="M33.657 65.398h67.537v10.508H33.657zM100.157 64.476H34.694v-5.773a5.774 5.774 0 0 1 5.778-5.774H94.38a5.78 5.78 0 0 1 5.778 5.774v5.773zM94.97 52.008H40.918V33.682c0-.272.223-.494.497-.494h53.058c.274 0 .497.223.497.494v18.326z"/>
+        <use fill="#FFF" xlink:href="#a"/>
+        <path stroke="#42A5F5" stroke-width="3" d="M42.067 49.351v3.578h23.746v-3.578a3.576 3.576 0 0 0-3.584-3.578H45.651a3.58 3.58 0 0 0-3.584 3.578z"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <path stroke="#42A5F5" stroke-width="3" d="M69.037 49.351v3.578h23.747v-3.578a3.576 3.576 0 0 0-3.585-3.578H72.622a3.58 3.58 0 0 0-3.585 3.578z"/>
+        <use fill="#FFF" xlink:href="#c"/>
+        <path stroke="#42A5F5" stroke-width="3" d="M1.5 57.086h22.933v16.742H1.5z"/>
+        <use fill="#FFF" xlink:href="#d"/>
+        <path stroke="#42A5F5" stroke-width="3" d="M5.649 61.242h14.634v8.429H5.649z"/>
+        <use fill="#F2FAFC" xlink:href="#e"/>
+        <path stroke="#42A5F5" stroke-width="3" d="M23.137 73.827h-4.682l1.31 2.254 1.552 2.667c1.052 1.81 3.32 1.226 3.32-.885v-4.036h-1.5z"/>
+        <g transform="matrix(-1 0 0 1 7.667 0)">
+            <use fill="#F2FAFC" xlink:href="#f"/>
+            <path stroke="#42A5F5" stroke-width="3" d="M4.87 73.827H.189L1.5 76.081l1.551 2.667c1.053 1.81 3.32 1.226 3.32-.885v-4.036h-1.5z"/>
+        </g>
+        <path stroke="#42A5F5" stroke-linecap="square" stroke-width="3" d="M11.368 63.784h3.154M14.7 16.937h55.66"/>
+        <g stroke="#42A5F5" stroke-width="3" transform="translate(112.891 55.495)">
+            <path d="M14.137 13.694s1.105 5.283-1.874 9.351"/>
+            <path stroke-linecap="square" d="M2.335 14.054h12.277"/>
+            <path d="M2.364 13.694S1.26 18.977 4.24 23.045"/>
+            <ellipse cx="3.632" cy="8.798" rx="3.328" ry="5.393"/>
+            <ellipse cx="12.288" cy="8.798" rx="3.328" ry="5.393"/>
+            <ellipse cx="7.959" cy="6.754" fill="#FFF" rx="3.631" ry="6.754"/>
+            <path stroke-linecap="square" d="M4.689 22.703h7.532"/>
+        </g>
+        <rect width="6.336" height="10.508" x="60.627" y="2.017" stroke="#42A5F5" stroke-width="3" rx="2"/>
+        <use fill="#FFF" xlink:href="#g"/>
+        <rect width="4.261" height="5.312" x="57.515" y="8.251" stroke="#42A5F5" stroke-width="3" rx="2"/>
+        <g>
+            <use fill="#D8D8D8" xlink:href="#h"/>
+            <path stroke="#42A5F5" stroke-width="3" d="M16.022 5.134h1v8.429h-1z"/>
+        </g>
+        <g>
+            <use fill="#D8D8D8" xlink:href="#i"/>
+            <path stroke="#42A5F5" stroke-width="3" d="M19.134 5.134h1v8.429h-1z"/>
+        </g>
+        <g>
+            <use fill="#D8D8D8" xlink:href="#j"/>
+            <path stroke="#42A5F5" stroke-width="3" d="M22.246 5.134h1v8.429h-1z"/>
+        </g>
+        <g transform="rotate(-35 28.007 9.348)">
+            <use fill="#D8D8D8" xlink:href="#k"/>
+            <path stroke="#42A5F5" stroke-width="3" d="M28.47 5.134h1v8.429h-1z"/>
+        </g>
+        <rect width="18.784" height="10.508" x="92.784" y="4.095" stroke="#42A5F5" stroke-width="3" rx="2"/>
+        <g>
+            <path stroke="#42A5F5" stroke-linecap="square" stroke-width="3" d="M9.497 54.914h7.1M13.724 54.547V26.492"/>
+            <g transform="translate(7.224 24.414)">
+                <use fill="#FAFDFF" xlink:href="#l"/>
+                <rect width="10.485" height="12.586" x="1.5" y="1.5" stroke="#42A5F5" stroke-width="3" rx="2"/>
+            </g>
+        </g>
+    </g>
+</svg>
