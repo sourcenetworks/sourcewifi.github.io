@@ -82,14 +82,14 @@ section {
   }
 }
 
-.provider-guest-section {
+.host-guest-section {
   @include clearfix();  
   text-align: center;
   padding: 70px 50px;
   h2 {
     text-align: center;
   }
-  .provider-section, .guest-section {
+  .host-section, .guest-section {
     margin-top: 50px;
     @include breakpoint(small) {
       h3 {

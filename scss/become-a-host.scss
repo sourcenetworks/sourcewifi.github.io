@@ -1,0 +1,226 @@
+@import 'variables';
+@import 'breakpoints';
+
+.spacer-line {
+  margin-top: 0;
+}
+
+.order-1-small {
+  @include breakpoint(small) {
+    order: 1;
+  }
+}
+
+section {
+  padding: 30px 30px 0;
+  @include breakpoint(mediumAndAbove) {
+    padding: 30px 50px 0;
+  }
+  box-sizing: border-box;
+  p {
+    margin: 24px 0;
+  }
+}
+
+
+.hero {
+  background-color: white;
+  padding: 120px 20px 60px;
+  h3 {
+    font-weight: 300;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  p {
+    margin: 30px 0 0;
+  }
+
+  .blue-button {
+    display: inline-block;
+    margin-top: 45px;
+    padding: 15px 30px;
+  }
+
+  @include breakpoint(small) {
+    padding: 80px 20px;
+    h2, h3 {
+      text-align: center;
+    }
+    .img-container {
+      // max-width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      img {
+        width: 100%;
+        // max-width: 400px;
+      }
+    }
+  }
+}
+
+.ribbon {
+  background-color: $blue;
+  p, a {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+  }
+  a {
+    font-weight: 600;
+  }
+  text-align: center;
+  padding: 30px 0;
+}
+
+.share-and-extend {
+  width: 100%;
+  padding: 100px 0;
+  background-color: $offWhite;
+  img {
+    width: 200px;
+  }
+
+  h3 {
+    font-size: 17px;
+    margin-top: 40px;
+  }
+
+  p {
+    max-width: 360px;
+    margin: 24px auto;
+  }
+}
+
+.specifications {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  h3 {
+    color: $blue;
+    font-size: 17px;
+  }
+  .router-image {
+    max-width: 100%;
+    float: right;
+
+    @include breakpoint(small) {
+      width: 100%;
+      max-width: 500px;
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  .spacer-line {
+    margin-bottom: 25px;
+  }
+}
+
+.admin-panel {
+  background-color: $blue;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 850px;
+
+  @include breakpoint(small) {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  }
+
+  .small-screen-dashboard {
+    width: calc(140% + 60px);
+    max-width: 800px;
+  }
+
+  .large-screen-dashboard {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    margin-left: 50px;
+
+    img {
+      height: 650px;
+    }
+  }
+
+  h3 {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .content-container {
+    padding-top: 16px;
+    width: 40%;
+
+    @include breakpoint(small) {
+      width: 100%;
+
+      h3 {
+        margin-top: 32px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .content-bullet {
+    width: 100%;
+    .img-container, p {
+      color: white;
+      text-align: left;
+    }
+    .img-container {
+      text-align: center;
+      padding-right: 16px;
+    }
+
+    @include breakpoint(small) {
+      p {
+        margin: 12px 0 0 0;
+      }
+
+      .img-container {
+        text-align: left;
+        margin-top: 40px; 
+      }
+    }
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
+.bottom-buttons {
+  .heading-container {
+    max-width: 500px;
+    display: block;
+    margin: 100px auto 0;
+  }
+
+  .button-container {
+    width: 196px;
+    display: block;
+    margin: 40px auto 80px;
+  }
+
+  .button {
+    display: block;
+    text-align: center;
+  }
+
+  .white-button {
+    background-color: white;
+    color: $textColor;
+    border: solid 1px #b7c0c9;
+    margin-top: 16px;
+  }
+}
