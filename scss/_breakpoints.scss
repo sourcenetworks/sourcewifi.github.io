@@ -11,6 +11,21 @@
     @else if $point == xsmall {
     @media (max-width: 424px) { @content ; }
   }
+    @else if $point == aboveXsmall {
+    @media (min-width: 425px) { @content ; }
+  }
+}
+
+@include breakpoint(xsmall) {
+  .hidden-xsmall-screens {
+    display: none;
+  }
+}
+
+@include breakpoint(aboveXsmall) {
+  .hidden-above-xsmall {
+    display: none;
+  }
 }
 
 @include breakpoint(small) {

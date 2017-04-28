@@ -121,6 +121,10 @@ body,html {
   background-color: $offWhite;
 }
 
+body {
+  @include fontbase;
+}
+
 h1, .title-1 {
   @include fontbase;
   font-size: 36px;
@@ -309,7 +313,7 @@ input[type=text] {
   }
 }
 
-.become-a-provider {
+.become-a-host {
   background-color: $inkyBlue;
   padding: 120px 20px 60px;
   h2, h3 {
